@@ -1,0 +1,3328 @@
+[
+ {
+  "method": "dense",
+  "use_filter": true,
+  "id": "t01",
+  "split": "test",
+  "answerable": true,
+  "question": "Can an author use a Creative Commons license to restrict other people's fair use of the work?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 192.3,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p132-c01",
+    "page": 132,
+    "score": 0.862039,
+    "is_evidence": true
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p133-c00",
+    "page": 133,
+    "score": 0.847479,
+    "is_evidence": false
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p104-c00",
+    "page": 104,
+    "score": 0.844073,
+    "is_evidence": false
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p121-c03",
+    "page": 121,
+    "score": 0.843956,
+    "is_evidence": false
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p117-c01",
+    "page": 117,
+    "score": 0.843553,
+    "is_evidence": false
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p116-c01",
+    "page": 116,
+    "score": 0.842079,
+    "is_evidence": false
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p118-c01",
+    "page": 118,
+    "score": 0.840443,
+    "is_evidence": false
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p164-c00",
+    "page": 164,
+    "score": 0.838856,
+    "is_evidence": false
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p121-c02",
+    "page": 121,
+    "score": 0.836361,
+    "is_evidence": false
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p127-c03",
+    "page": 127,
+    "score": 0.835225,
+    "is_evidence": false
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "use_filter": true,
+  "id": "t02",
+  "split": "test",
+  "answerable": true,
+  "question": "Why do owners almost always insist on an injunction rather than relying on money damages when infringed?",
+  "filter": {
+   "ip_type": "trademark"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 138.6,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p162-c01",
+    "page": 162,
+    "score": 0.855719,
+    "is_evidence": true
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p162-c04",
+    "page": 162,
+    "score": 0.839008,
+    "is_evidence": false
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p162-c03",
+    "page": 162,
+    "score": 0.8381,
+    "is_evidence": false
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p161-c05",
+    "page": 161,
+    "score": 0.835472,
+    "is_evidence": false
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p157-c02",
+    "page": 157,
+    "score": 0.821959,
+    "is_evidence": false
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p160-c02",
+    "page": 160,
+    "score": 0.820047,
+    "is_evidence": false
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p162-c02",
+    "page": 162,
+    "score": 0.8192,
+    "is_evidence": false
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p159-c00",
+    "page": 159,
+    "score": 0.810292,
+    "is_evidence": false
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p161-c01",
+    "page": 161,
+    "score": 0.809346,
+    "is_evidence": false
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p157-c03",
+    "page": 157,
+    "score": 0.809298,
+    "is_evidence": false
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "use_filter": true,
+  "id": "t03",
+  "split": "test",
+  "answerable": true,
+  "question": "How do courts decide how long an injunction should last?",
+  "filter": {
+   "ip_type": "trade_secret"
+  },
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": 4,
+  "latency_ms": 124.6,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p185-c01",
+    "page": 185,
+    "score": 0.863044,
+    "is_evidence": false
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p185-c02",
+    "page": 185,
+    "score": 0.851761,
+    "is_evidence": false
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p184-c02",
+    "page": 184,
+    "score": 0.848819,
+    "is_evidence": false
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p185-c00",
+    "page": 185,
+    "score": 0.842159,
+    "is_evidence": true
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p185-c03",
+    "page": 185,
+    "score": 0.829586,
+    "is_evidence": false
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p183-c01",
+    "page": 183,
+    "score": 0.821459,
+    "is_evidence": false
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p186-c04",
+    "page": 186,
+    "score": 0.817482,
+    "is_evidence": false
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p184-c01",
+    "page": 184,
+    "score": 0.816885,
+    "is_evidence": false
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p186-c00",
+    "page": 186,
+    "score": 0.812228,
+    "is_evidence": false
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p183-c03",
+    "page": 183,
+    "score": 0.809649,
+    "is_evidence": false
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "use_filter": true,
+  "id": "t04",
+  "split": "test",
+  "answerable": true,
+  "question": "Can a descriptive term ever become eligible for trademark registration?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 96.5,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p153-c03",
+    "page": 153,
+    "score": 0.897775,
+    "is_evidence": true
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p149-c00",
+    "page": 149,
+    "score": 0.865569,
+    "is_evidence": false
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p152-c04",
+    "page": 152,
+    "score": 0.858155,
+    "is_evidence": false
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p158-c03",
+    "page": 158,
+    "score": 0.856467,
+    "is_evidence": false
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p156-c01",
+    "page": 156,
+    "score": 0.852796,
+    "is_evidence": false
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p156-c00",
+    "page": 156,
+    "score": 0.850849,
+    "is_evidence": false
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p164-c00",
+    "page": 164,
+    "score": 0.842498,
+    "is_evidence": false
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p153-c05",
+    "page": 153,
+    "score": 0.842465,
+    "is_evidence": false
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p155-c02",
+    "page": 155,
+    "score": 0.841596,
+    "is_evidence": false
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p153-c04",
+    "page": 153,
+    "score": 0.839217,
+    "is_evidence": false
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "use_filter": true,
+  "id": "t05",
+  "split": "test",
+  "answerable": true,
+  "question": "Can a product still infringe a patent claim if it does not literally match every element of the claim?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 109.6,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p067-c01",
+    "page": 67,
+    "score": 0.862075,
+    "is_evidence": true
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p067-c00",
+    "page": 67,
+    "score": 0.85969,
+    "is_evidence": false
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p058-c02",
+    "page": 58,
+    "score": 0.855238,
+    "is_evidence": false
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p072-c02",
+    "page": 72,
+    "score": 0.844003,
+    "is_evidence": false
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p090-c00",
+    "page": 90,
+    "score": 0.843473,
+    "is_evidence": false
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p073-c00",
+    "page": 73,
+    "score": 0.843006,
+    "is_evidence": false
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p087-c04",
+    "page": 87,
+    "score": 0.84296,
+    "is_evidence": false
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p059-c01",
+    "page": 59,
+    "score": 0.842129,
+    "is_evidence": false
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p080-c01",
+    "page": 80,
+    "score": 0.840629,
+    "is_evidence": false
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p058-c01",
+    "page": 58,
+    "score": 0.83981,
+    "is_evidence": false
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "use_filter": true,
+  "id": "t06",
+  "split": "test",
+  "answerable": true,
+  "question": "Under the classroom photocopying brevity test, how many words of a poem may be copied?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 91.4,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p122-c05",
+    "page": 122,
+    "score": 0.892705,
+    "is_evidence": true
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p122-c04",
+    "page": 122,
+    "score": 0.820275,
+    "is_evidence": false
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p119-c03",
+    "page": 119,
+    "score": 0.790738,
+    "is_evidence": false
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p123-c00",
+    "page": 123,
+    "score": 0.7907,
+    "is_evidence": false
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p122-c06",
+    "page": 122,
+    "score": 0.78411,
+    "is_evidence": false
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p121-c04",
+    "page": 121,
+    "score": 0.783146,
+    "is_evidence": false
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p121-c02",
+    "page": 121,
+    "score": 0.782167,
+    "is_evidence": false
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p122-c00",
+    "page": 122,
+    "score": 0.77565,
+    "is_evidence": false
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p113-c00",
+    "page": 113,
+    "score": 0.775383,
+    "is_evidence": false
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p133-c03",
+    "page": 133,
+    "score": 0.774919,
+    "is_evidence": false
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "use_filter": true,
+  "id": "u03",
+  "split": "test",
+  "answerable": false,
+  "question": "Can a work created entirely by artificial intelligence, with no human author, be registered for copyright?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": null,
+  "latency_ms": 118.4,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p103-c00",
+    "page": 103,
+    "score": 0.845641,
+    "is_evidence": null
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p118-c01",
+    "page": 118,
+    "score": 0.843813,
+    "is_evidence": null
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p115-c03",
+    "page": 115,
+    "score": 0.840095,
+    "is_evidence": null
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p115-c04",
+    "page": 115,
+    "score": 0.837287,
+    "is_evidence": null
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p118-c02",
+    "page": 118,
+    "score": 0.833231,
+    "is_evidence": null
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p020-c01",
+    "page": 20,
+    "score": 0.832532,
+    "is_evidence": null
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p115-c02",
+    "page": 115,
+    "score": 0.831357,
+    "is_evidence": null
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p122-c06",
+    "page": 122,
+    "score": 0.830962,
+    "is_evidence": null
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p114-c01",
+    "page": 114,
+    "score": 0.828395,
+    "is_evidence": null
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p116-c01",
+    "page": 116,
+    "score": 0.826927,
+    "is_evidence": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "use_filter": true,
+  "id": "u04",
+  "split": "test",
+  "answerable": false,
+  "question": "Under the UDRP, how can a trademark owner recover a domain name from a cybersquatter?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": null,
+  "latency_ms": 106.0,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p158-c03",
+    "page": 158,
+    "score": 0.824153,
+    "is_evidence": null
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p157-c02",
+    "page": 157,
+    "score": 0.816493,
+    "is_evidence": null
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p157-c03",
+    "page": 157,
+    "score": 0.814603,
+    "is_evidence": null
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p158-c01",
+    "page": 158,
+    "score": 0.809194,
+    "is_evidence": null
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p157-c04",
+    "page": 157,
+    "score": 0.809155,
+    "is_evidence": null
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p122-c06",
+    "page": 122,
+    "score": 0.807012,
+    "is_evidence": null
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p158-c00",
+    "page": 158,
+    "score": 0.806092,
+    "is_evidence": null
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p119-c00",
+    "page": 119,
+    "score": 0.805214,
+    "is_evidence": null
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p183-c01",
+    "page": 183,
+    "score": 0.802765,
+    "is_evidence": null
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p184-c02",
+    "page": 184,
+    "score": 0.801718,
+    "is_evidence": null
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "use_filter": true,
+  "id": "t01",
+  "split": "test",
+  "answerable": true,
+  "question": "Can an author use a Creative Commons license to restrict other people's fair use of the work?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 2.4,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p132-c01",
+    "page": 132,
+    "score": 24.954542,
+    "is_evidence": true
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p163-c00",
+    "page": 163,
+    "score": 19.183495,
+    "is_evidence": false
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p133-c00",
+    "page": 133,
+    "score": 18.119162,
+    "is_evidence": false
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p121-c01",
+    "page": 121,
+    "score": 15.913357,
+    "is_evidence": false
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p132-c00",
+    "page": 132,
+    "score": 15.827521,
+    "is_evidence": false
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p163-c01",
+    "page": 163,
+    "score": 15.764548,
+    "is_evidence": false
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p118-c00",
+    "page": 118,
+    "score": 15.143467,
+    "is_evidence": false
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p104-c00",
+    "page": 104,
+    "score": 14.863831,
+    "is_evidence": false
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p122-c01",
+    "page": 122,
+    "score": 14.860207,
+    "is_evidence": false
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p121-c04",
+    "page": 121,
+    "score": 14.77202,
+    "is_evidence": false
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "use_filter": true,
+  "id": "t02",
+  "split": "test",
+  "answerable": true,
+  "question": "Why do owners almost always insist on an injunction rather than relying on money damages when infringed?",
+  "filter": {
+   "ip_type": "trademark"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 2.0,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p162-c01",
+    "page": 162,
+    "score": 22.985064,
+    "is_evidence": true
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p162-c03",
+    "page": 162,
+    "score": 7.634016,
+    "is_evidence": false
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p149-c01",
+    "page": 149,
+    "score": 5.321867,
+    "is_evidence": false
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p162-c02",
+    "page": 162,
+    "score": 3.734774,
+    "is_evidence": false
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p144-c00",
+    "page": 144,
+    "score": 3.699474,
+    "is_evidence": false
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p157-c03",
+    "page": 157,
+    "score": 3.678034,
+    "is_evidence": false
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p142-c02",
+    "page": 142,
+    "score": 3.459596,
+    "is_evidence": false
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p147-c00",
+    "page": 147,
+    "score": 3.41351,
+    "is_evidence": false
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p162-c04",
+    "page": 162,
+    "score": 3.396757,
+    "is_evidence": false
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p142-c01",
+    "page": 142,
+    "score": 3.296004,
+    "is_evidence": false
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "use_filter": true,
+  "id": "t03",
+  "split": "test",
+  "answerable": true,
+  "question": "How do courts decide how long an injunction should last?",
+  "filter": {
+   "ip_type": "trade_secret"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 1.1,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p185-c00",
+    "page": 185,
+    "score": 8.149529,
+    "is_evidence": true
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p185-c02",
+    "page": 185,
+    "score": 8.13438,
+    "is_evidence": false
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p185-c01",
+    "page": 185,
+    "score": 7.636324,
+    "is_evidence": false
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p175-c02",
+    "page": 175,
+    "score": 6.039175,
+    "is_evidence": false
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p185-c03",
+    "page": 185,
+    "score": 5.880661,
+    "is_evidence": false
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p186-c00",
+    "page": 186,
+    "score": 5.84235,
+    "is_evidence": false
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p187-c00",
+    "page": 187,
+    "score": 5.562866,
+    "is_evidence": false
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p179-c01",
+    "page": 179,
+    "score": 5.216972,
+    "is_evidence": false
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p184-c01",
+    "page": 184,
+    "score": 5.009623,
+    "is_evidence": false
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p186-c04",
+    "page": 186,
+    "score": 4.832857,
+    "is_evidence": false
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "use_filter": true,
+  "id": "t04",
+  "split": "test",
+  "answerable": true,
+  "question": "Can a descriptive term ever become eligible for trademark registration?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 1.1,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p153-c03",
+    "page": 153,
+    "score": 23.398426,
+    "is_evidence": true
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p153-c01",
+    "page": 153,
+    "score": 16.698641,
+    "is_evidence": false
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p152-c04",
+    "page": 152,
+    "score": 14.332709,
+    "is_evidence": false
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p156-c00",
+    "page": 156,
+    "score": 13.968166,
+    "is_evidence": false
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p158-c03",
+    "page": 158,
+    "score": 12.186117,
+    "is_evidence": false
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p155-c02",
+    "page": 155,
+    "score": 11.900312,
+    "is_evidence": false
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p149-c00",
+    "page": 149,
+    "score": 11.826369,
+    "is_evidence": false
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p158-c01",
+    "page": 158,
+    "score": 10.536316,
+    "is_evidence": false
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p157-c03",
+    "page": 157,
+    "score": 9.382328,
+    "is_evidence": false
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p115-c00",
+    "page": 115,
+    "score": 9.26055,
+    "is_evidence": false
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "use_filter": true,
+  "id": "t05",
+  "split": "test",
+  "answerable": true,
+  "question": "Can a product still infringe a patent claim if it does not literally match every element of the claim?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": 4,
+  "latency_ms": 1.7,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p067-c00",
+    "page": 67,
+    "score": 18.584326,
+    "is_evidence": false
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p080-c00",
+    "page": 80,
+    "score": 14.182035,
+    "is_evidence": false
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p084-c02",
+    "page": 84,
+    "score": 13.526028,
+    "is_evidence": false
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p067-c01",
+    "page": 67,
+    "score": 13.105498,
+    "is_evidence": true
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p073-c03",
+    "page": 73,
+    "score": 12.322268,
+    "is_evidence": false
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p058-c01",
+    "page": 58,
+    "score": 12.043166,
+    "is_evidence": false
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p073-c00",
+    "page": 73,
+    "score": 10.721629,
+    "is_evidence": false
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p080-c01",
+    "page": 80,
+    "score": 10.574431,
+    "is_evidence": false
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p071-c02",
+    "page": 71,
+    "score": 10.535546,
+    "is_evidence": false
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p106-c02",
+    "page": 106,
+    "score": 10.087484,
+    "is_evidence": false
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "use_filter": true,
+  "id": "t06",
+  "split": "test",
+  "answerable": true,
+  "question": "Under the classroom photocopying brevity test, how many words of a poem may be copied?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 1.6,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p122-c05",
+    "page": 122,
+    "score": 27.719945,
+    "is_evidence": true
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p122-c04",
+    "page": 122,
+    "score": 18.696374,
+    "is_evidence": false
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p046-c02",
+    "page": 46,
+    "score": 6.907273,
+    "is_evidence": false
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p087-c05",
+    "page": 87,
+    "score": 6.589388,
+    "is_evidence": false
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p046-c03",
+    "page": 46,
+    "score": 6.467428,
+    "is_evidence": false
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p156-c01",
+    "page": 156,
+    "score": 6.425591,
+    "is_evidence": false
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p160-c03",
+    "page": 160,
+    "score": 5.965823,
+    "is_evidence": false
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p121-c02",
+    "page": 121,
+    "score": 5.849245,
+    "is_evidence": false
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p115-c03",
+    "page": 115,
+    "score": 5.680818,
+    "is_evidence": false
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p071-c02",
+    "page": 71,
+    "score": 5.532213,
+    "is_evidence": false
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "use_filter": true,
+  "id": "u03",
+  "split": "test",
+  "answerable": false,
+  "question": "Can a work created entirely by artificial intelligence, with no human author, be registered for copyright?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": null,
+  "latency_ms": 1.6,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p115-c03",
+    "page": 115,
+    "score": 12.089723,
+    "is_evidence": null
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p132-c00",
+    "page": 132,
+    "score": 11.268874,
+    "is_evidence": null
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p116-c02",
+    "page": 116,
+    "score": 10.589027,
+    "is_evidence": null
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p116-c01",
+    "page": 116,
+    "score": 10.468223,
+    "is_evidence": null
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p118-c02",
+    "page": 118,
+    "score": 9.997452,
+    "is_evidence": null
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p117-c01",
+    "page": 117,
+    "score": 9.923443,
+    "is_evidence": null
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p124-c01",
+    "page": 124,
+    "score": 8.999799,
+    "is_evidence": null
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p118-c00",
+    "page": 118,
+    "score": 8.986807,
+    "is_evidence": null
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p103-c00",
+    "page": 103,
+    "score": 8.69761,
+    "is_evidence": null
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p102-c00",
+    "page": 102,
+    "score": 8.52787,
+    "is_evidence": null
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "use_filter": true,
+  "id": "u04",
+  "split": "test",
+  "answerable": false,
+  "question": "Under the UDRP, how can a trademark owner recover a domain name from a cybersquatter?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": null,
+  "latency_ms": 1.1,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p154-c00",
+    "page": 154,
+    "score": 12.111901,
+    "is_evidence": null
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p156-c01",
+    "page": 156,
+    "score": 9.180385,
+    "is_evidence": null
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p156-c03",
+    "page": 156,
+    "score": 8.582917,
+    "is_evidence": null
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p152-c01",
+    "page": 152,
+    "score": 7.79254,
+    "is_evidence": null
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p146-c01",
+    "page": 146,
+    "score": 7.573836,
+    "is_evidence": null
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p085-c02",
+    "page": 85,
+    "score": 7.401944,
+    "is_evidence": null
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p142-c03",
+    "page": 142,
+    "score": 7.002966,
+    "is_evidence": null
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p149-c00",
+    "page": 149,
+    "score": 6.781041,
+    "is_evidence": null
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p141-c01",
+    "page": 141,
+    "score": 6.775103,
+    "is_evidence": null
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p160-c01",
+    "page": 160,
+    "score": 6.681521,
+    "is_evidence": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid",
+  "use_filter": true,
+  "id": "t01",
+  "split": "test",
+  "answerable": true,
+  "question": "Can an author use a Creative Commons license to restrict other people's fair use of the work?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 107.1,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p132-c01",
+    "page": 132,
+    "score": 0.032787,
+    "is_evidence": true,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p133-c00",
+    "page": 133,
+    "score": 0.032002,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 3
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p104-c00",
+    "page": 104,
+    "score": 0.030579,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 3,
+     "bm25": 8
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p163-c00",
+    "page": 163,
+    "score": 0.02895,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 18,
+     "bm25": 2
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p121-c02",
+    "page": 121,
+    "score": 0.028382,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 9,
+     "bm25": 12
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p164-c00",
+    "page": 164,
+    "score": 0.027864,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 8,
+     "bm25": 16
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p121-c04",
+    "page": 121,
+    "score": 0.027799,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 14,
+     "bm25": 10
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p122-c03",
+    "page": 122,
+    "score": 0.027418,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 15,
+     "bm25": 11
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p107-c00",
+    "page": 107,
+    "score": 0.026857,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 16,
+     "bm25": 13
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p121-c01",
+    "page": 121,
+    "score": 0.015625,
+    "is_evidence": false,
+    "source_ranks": {
+     "bm25": 4
+    }
+   }
+  ]
+ },
+ {
+  "method": "hybrid",
+  "use_filter": true,
+  "id": "t02",
+  "split": "test",
+  "answerable": true,
+  "question": "Why do owners almost always insist on an injunction rather than relying on money damages when infringed?",
+  "filter": {
+   "ip_type": "trademark"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 122.3,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p162-c01",
+    "page": 162,
+    "score": 0.032787,
+    "is_evidence": true,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p162-c03",
+    "page": 162,
+    "score": 0.032002,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 3,
+     "bm25": 2
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p162-c04",
+    "page": 162,
+    "score": 0.030622,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 9
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p162-c02",
+    "page": 162,
+    "score": 0.03055,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 7,
+     "bm25": 4
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p157-c02",
+    "page": 157,
+    "score": 0.029469,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 5,
+     "bm25": 11
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p157-c03",
+    "page": 157,
+    "score": 0.029437,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 10,
+     "bm25": 6
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p161-c03",
+    "page": 161,
+    "score": 0.026876,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 17,
+     "bm25": 12
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p159-c01",
+    "page": 159,
+    "score": 0.025992,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 19,
+     "bm25": 15
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p149-c01",
+    "page": 149,
+    "score": 0.015873,
+    "is_evidence": false,
+    "source_ranks": {
+     "bm25": 3
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p161-c05",
+    "page": 161,
+    "score": 0.015625,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 4
+    }
+   }
+  ]
+ },
+ {
+  "method": "hybrid",
+  "use_filter": true,
+  "id": "t03",
+  "split": "test",
+  "answerable": true,
+  "question": "How do courts decide how long an injunction should last?",
+  "filter": {
+   "ip_type": "trade_secret"
+  },
+  "hit_at_1": false,
+  "hit_at_3": true,
+  "first_hit_rank": 3,
+  "latency_ms": 104.0,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p185-c01",
+    "page": 185,
+    "score": 0.032266,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 3
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p185-c02",
+    "page": 185,
+    "score": 0.032258,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 2
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p185-c00",
+    "page": 185,
+    "score": 0.032018,
+    "is_evidence": true,
+    "source_ranks": {
+     "dense": 4,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p185-c03",
+    "page": 185,
+    "score": 0.030769,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 5,
+     "bm25": 5
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p184-c02",
+    "page": 184,
+    "score": 0.029762,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 3,
+     "bm25": 12
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p186-c00",
+    "page": 186,
+    "score": 0.029644,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 9,
+     "bm25": 6
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p186-c04",
+    "page": 186,
+    "score": 0.029211,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 7,
+     "bm25": 10
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p184-c01",
+    "page": 184,
+    "score": 0.029199,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 8,
+     "bm25": 9
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p187-c00",
+    "page": 187,
+    "score": 0.02901,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 11,
+     "bm25": 7
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p182-c01",
+    "page": 182,
+    "score": 0.026709,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 12,
+     "bm25": 18
+    }
+   }
+  ]
+ },
+ {
+  "method": "hybrid",
+  "use_filter": true,
+  "id": "t04",
+  "split": "test",
+  "answerable": true,
+  "question": "Can a descriptive term ever become eligible for trademark registration?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 108.6,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p153-c03",
+    "page": 153,
+    "score": 0.032787,
+    "is_evidence": true,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p152-c04",
+    "page": 152,
+    "score": 0.031746,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 3,
+     "bm25": 3
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p149-c00",
+    "page": 149,
+    "score": 0.031054,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 7
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p158-c03",
+    "page": 158,
+    "score": 0.03101,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 4,
+     "bm25": 5
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p156-c00",
+    "page": 156,
+    "score": 0.030777,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 6,
+     "bm25": 4
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p155-c02",
+    "page": 155,
+    "score": 0.029644,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 9,
+     "bm25": 6
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p156-c01",
+    "page": 156,
+    "score": 0.029274,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 5,
+     "bm25": 12
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p158-c01",
+    "page": 158,
+    "score": 0.028405,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 13,
+     "bm25": 8
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p153-c05",
+    "page": 153,
+    "score": 0.027526,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 8,
+     "bm25": 18
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p153-c00",
+    "page": 153,
+    "score": 0.026501,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 14,
+     "bm25": 17
+    }
+   }
+  ]
+ },
+ {
+  "method": "hybrid",
+  "use_filter": true,
+  "id": "t05",
+  "split": "test",
+  "answerable": true,
+  "question": "Can a product still infringe a patent claim if it does not literally match every element of the claim?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": true,
+  "first_hit_rank": 2,
+  "latency_ms": 115.8,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p067-c00",
+    "page": 67,
+    "score": 0.032522,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p067-c01",
+    "page": 67,
+    "score": 0.032018,
+    "is_evidence": true,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 4
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p073-c00",
+    "page": 73,
+    "score": 0.030077,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 6,
+     "bm25": 7
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p058-c01",
+    "page": 58,
+    "score": 0.029437,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 10,
+     "bm25": 6
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p080-c01",
+    "page": 80,
+    "score": 0.029199,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 9,
+     "bm25": 8
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p071-c02",
+    "page": 71,
+    "score": 0.026993,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 20,
+     "bm25": 9
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p080-c00",
+    "page": 80,
+    "score": 0.016129,
+    "is_evidence": false,
+    "source_ranks": {
+     "bm25": 2
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p058-c02",
+    "page": 58,
+    "score": 0.015873,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 3
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p084-c02",
+    "page": 84,
+    "score": 0.015873,
+    "is_evidence": false,
+    "source_ranks": {
+     "bm25": 3
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p072-c02",
+    "page": 72,
+    "score": 0.015625,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 4
+    }
+   }
+  ]
+ },
+ {
+  "method": "hybrid",
+  "use_filter": true,
+  "id": "t06",
+  "split": "test",
+  "answerable": true,
+  "question": "Under the classroom photocopying brevity test, how many words of a poem may be copied?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 118.4,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p122-c05",
+    "page": 122,
+    "score": 0.032787,
+    "is_evidence": true,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p122-c04",
+    "page": 122,
+    "score": 0.032258,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 2
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p121-c02",
+    "page": 121,
+    "score": 0.029631,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 7,
+     "bm25": 8
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p123-c00",
+    "page": 123,
+    "score": 0.029324,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 4,
+     "bm25": 13
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p115-c03",
+    "page": 115,
+    "score": 0.028191,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 13,
+     "bm25": 9
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p119-c02",
+    "page": 119,
+    "score": 0.025641,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 18,
+     "bm25": 18
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p046-c02",
+    "page": 46,
+    "score": 0.015873,
+    "is_evidence": false,
+    "source_ranks": {
+     "bm25": 3
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p119-c03",
+    "page": 119,
+    "score": 0.015873,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 3
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p087-c05",
+    "page": 87,
+    "score": 0.015625,
+    "is_evidence": false,
+    "source_ranks": {
+     "bm25": 4
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p046-c03",
+    "page": 46,
+    "score": 0.015385,
+    "is_evidence": false,
+    "source_ranks": {
+     "bm25": 5
+    }
+   }
+  ]
+ },
+ {
+  "method": "hybrid",
+  "use_filter": true,
+  "id": "u03",
+  "split": "test",
+  "answerable": false,
+  "question": "Can a work created entirely by artificial intelligence, with no human author, be registered for copyright?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": null,
+  "latency_ms": 111.3,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p115-c03",
+    "page": 115,
+    "score": 0.032266,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 3,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p103-c00",
+    "page": 103,
+    "score": 0.030886,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 9
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p118-c02",
+    "page": 118,
+    "score": 0.030769,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 5,
+     "bm25": 5
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p118-c01",
+    "page": 118,
+    "score": 0.030018,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 12
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p116-c01",
+    "page": 116,
+    "score": 0.029911,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 10,
+     "bm25": 4
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p132-c00",
+    "page": 132,
+    "score": 0.016129,
+    "is_evidence": null,
+    "source_ranks": {
+     "bm25": 2
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p116-c02",
+    "page": 116,
+    "score": 0.015873,
+    "is_evidence": null,
+    "source_ranks": {
+     "bm25": 3
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p115-c04",
+    "page": 115,
+    "score": 0.015625,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 4
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p020-c01",
+    "page": 20,
+    "score": 0.015152,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 6
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p117-c01",
+    "page": 117,
+    "score": 0.015152,
+    "is_evidence": null,
+    "source_ranks": {
+     "bm25": 6
+    }
+   }
+  ]
+ },
+ {
+  "method": "hybrid",
+  "use_filter": true,
+  "id": "u04",
+  "split": "test",
+  "answerable": false,
+  "question": "Under the UDRP, how can a trademark owner recover a domain name from a cybersquatter?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": null,
+  "latency_ms": 113.5,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p152-c01",
+    "page": 152,
+    "score": 0.029514,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 12,
+     "bm25": 4
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p156-c03",
+    "page": 156,
+    "score": 0.029387,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 14,
+     "bm25": 3
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p158-c03",
+    "page": 158,
+    "score": 0.029214,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 18
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p156-c01",
+    "page": 156,
+    "score": 0.028629,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 20,
+     "bm25": 2
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p162-c01",
+    "page": 162,
+    "score": 0.026334,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 18,
+     "bm25": 14
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p154-c00",
+    "page": 154,
+    "score": 0.016393,
+    "is_evidence": null,
+    "source_ranks": {
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p157-c02",
+    "page": 157,
+    "score": 0.016129,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 2
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p157-c03",
+    "page": 157,
+    "score": 0.015873,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 3
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p158-c01",
+    "page": 158,
+    "score": 0.015625,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 4
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p146-c01",
+    "page": 146,
+    "score": 0.015385,
+    "is_evidence": null,
+    "source_ranks": {
+     "bm25": 5
+    }
+   }
+  ]
+ },
+ {
+  "method": "rerank",
+  "use_filter": true,
+  "id": "t01",
+  "split": "test",
+  "answerable": true,
+  "question": "Can an author use a Creative Commons license to restrict other people's fair use of the work?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 865.4,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p132-c01",
+    "page": 132,
+    "score": 5.518749,
+    "is_evidence": true,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p104-c00",
+    "page": 104,
+    "score": 0.09886,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 3,
+     "bm25": 8
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p122-c03",
+    "page": 122,
+    "score": -0.016438,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 15,
+     "bm25": 11
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p133-c00",
+    "page": 133,
+    "score": -0.267057,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 3
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p132-c00",
+    "page": 132,
+    "score": -0.44271,
+    "is_evidence": false,
+    "source_ranks": {
+     "bm25": 5
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p121-c02",
+    "page": 121,
+    "score": -0.913518,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 9,
+     "bm25": 12
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p107-c00",
+    "page": 107,
+    "score": -1.885825,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 16,
+     "bm25": 13
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p121-c01",
+    "page": 121,
+    "score": -2.556026,
+    "is_evidence": false,
+    "source_ranks": {
+     "bm25": 4
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p163-c00",
+    "page": 163,
+    "score": -2.585138,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 18,
+     "bm25": 2
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p121-c04",
+    "page": 121,
+    "score": -2.617384,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 14,
+     "bm25": 10
+    }
+   }
+  ]
+ },
+ {
+  "method": "rerank",
+  "use_filter": true,
+  "id": "t02",
+  "split": "test",
+  "answerable": true,
+  "question": "Why do owners almost always insist on an injunction rather than relying on money damages when infringed?",
+  "filter": {
+   "ip_type": "trademark"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 925.2,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p162-c01",
+    "page": 162,
+    "score": 4.746747,
+    "is_evidence": true,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p162-c03",
+    "page": 162,
+    "score": -1.150775,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 3,
+     "bm25": 2
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p161-c03",
+    "page": 161,
+    "score": -5.449996,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 17,
+     "bm25": 12
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p162-c02",
+    "page": 162,
+    "score": -5.974789,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 7,
+     "bm25": 4
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p161-c02",
+    "page": 161,
+    "score": -6.722837,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 11
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p162-c04",
+    "page": 162,
+    "score": -6.988263,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 9
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p161-c01",
+    "page": 161,
+    "score": -7.089441,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 9
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p159-c00",
+    "page": 159,
+    "score": -7.293514,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 8
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p142-c01",
+    "page": 142,
+    "score": -7.76655,
+    "is_evidence": false,
+    "source_ranks": {
+     "bm25": 10
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p157-c02",
+    "page": 157,
+    "score": -8.001045,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 5,
+     "bm25": 11
+    }
+   }
+  ]
+ },
+ {
+  "method": "rerank",
+  "use_filter": true,
+  "id": "t03",
+  "split": "test",
+  "answerable": true,
+  "question": "How do courts decide how long an injunction should last?",
+  "filter": {
+   "ip_type": "trade_secret"
+  },
+  "hit_at_1": false,
+  "hit_at_3": true,
+  "first_hit_rank": 3,
+  "latency_ms": 1292.8,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p185-c01",
+    "page": 185,
+    "score": 2.533637,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 3
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p185-c02",
+    "page": 185,
+    "score": 1.361792,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 2
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p185-c00",
+    "page": 185,
+    "score": 0.475721,
+    "is_evidence": true,
+    "source_ranks": {
+     "dense": 4,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p184-c02",
+    "page": 184,
+    "score": -1.609213,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 3,
+     "bm25": 12
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p185-c03",
+    "page": 185,
+    "score": -2.930907,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 5,
+     "bm25": 5
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p183-c03",
+    "page": 183,
+    "score": -5.529923,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 10
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p186-c04",
+    "page": 186,
+    "score": -5.962453,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 7,
+     "bm25": 10
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p183-c01",
+    "page": 183,
+    "score": -7.760625,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 6
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p186-c00",
+    "page": 186,
+    "score": -8.342898,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 9,
+     "bm25": 6
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p187-c00",
+    "page": 187,
+    "score": -8.999804,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 11,
+     "bm25": 7
+    }
+   }
+  ]
+ },
+ {
+  "method": "rerank",
+  "use_filter": true,
+  "id": "t04",
+  "split": "test",
+  "answerable": true,
+  "question": "Can a descriptive term ever become eligible for trademark registration?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 1184.4,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p153-c03",
+    "page": 153,
+    "score": 7.648758,
+    "is_evidence": true,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p152-c04",
+    "page": 152,
+    "score": 4.213059,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 3,
+     "bm25": 3
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p158-c03",
+    "page": 158,
+    "score": 3.812453,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 4,
+     "bm25": 5
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p156-c00",
+    "page": 156,
+    "score": 2.850434,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 6,
+     "bm25": 4
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p149-c00",
+    "page": 149,
+    "score": 2.595972,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 7
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p153-c01",
+    "page": 153,
+    "score": 1.885651,
+    "is_evidence": false,
+    "source_ranks": {
+     "bm25": 2
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p156-c01",
+    "page": 156,
+    "score": 0.984897,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 5,
+     "bm25": 12
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p158-c01",
+    "page": 158,
+    "score": 0.57975,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 13,
+     "bm25": 8
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p155-c02",
+    "page": 155,
+    "score": 0.514771,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 9,
+     "bm25": 6
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p153-c00",
+    "page": 153,
+    "score": -0.200577,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 14,
+     "bm25": 17
+    }
+   }
+  ]
+ },
+ {
+  "method": "rerank",
+  "use_filter": true,
+  "id": "t05",
+  "split": "test",
+  "answerable": true,
+  "question": "Can a product still infringe a patent claim if it does not literally match every element of the claim?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 914.3,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p067-c01",
+    "page": 67,
+    "score": 5.440502,
+    "is_evidence": true,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 4
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p067-c00",
+    "page": 67,
+    "score": 2.124828,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p087-c04",
+    "page": 87,
+    "score": 1.517227,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 7
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p072-c02",
+    "page": 72,
+    "score": 0.4042,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 4
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p058-c01",
+    "page": 58,
+    "score": 0.141015,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 10,
+     "bm25": 6
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p071-c02",
+    "page": 71,
+    "score": -0.37953,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 20,
+     "bm25": 9
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p080-c01",
+    "page": 80,
+    "score": -1.766119,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 9,
+     "bm25": 8
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p090-c00",
+    "page": 90,
+    "score": -1.892221,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 5
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p073-c00",
+    "page": 73,
+    "score": -2.169166,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 6,
+     "bm25": 7
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p084-c02",
+    "page": 84,
+    "score": -2.565043,
+    "is_evidence": false,
+    "source_ranks": {
+     "bm25": 3
+    }
+   }
+  ]
+ },
+ {
+  "method": "rerank",
+  "use_filter": true,
+  "id": "t06",
+  "split": "test",
+  "answerable": true,
+  "question": "Under the classroom photocopying brevity test, how many words of a poem may be copied?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "latency_ms": 1065.0,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p122-c05",
+    "page": 122,
+    "score": 7.659585,
+    "is_evidence": true,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p122-c04",
+    "page": 122,
+    "score": -2.564425,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 2
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p121-c01",
+    "page": 121,
+    "score": -8.106169,
+    "is_evidence": false,
+    "source_ranks": {
+     "bm25": 11
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p121-c02",
+    "page": 121,
+    "score": -8.329958,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 7,
+     "bm25": 8
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p115-c03",
+    "page": 115,
+    "score": -8.643003,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 13,
+     "bm25": 9
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p123-c00",
+    "page": 123,
+    "score": -8.694206,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 4,
+     "bm25": 13
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p122-c06",
+    "page": 122,
+    "score": -9.467852,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 5
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p119-c02",
+    "page": 119,
+    "score": -10.038364,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 18,
+     "bm25": 18
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p121-c04",
+    "page": 121,
+    "score": -10.142763,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 6
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p118-c03",
+    "page": 118,
+    "score": -10.642153,
+    "is_evidence": false,
+    "source_ranks": {
+     "dense": 11
+    }
+   }
+  ]
+ },
+ {
+  "method": "rerank",
+  "use_filter": true,
+  "id": "u03",
+  "split": "test",
+  "answerable": false,
+  "question": "Can a work created entirely by artificial intelligence, with no human author, be registered for copyright?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": null,
+  "latency_ms": 909.4,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p115-c03",
+    "page": 115,
+    "score": -1.047235,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 3,
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p103-c00",
+    "page": 103,
+    "score": -1.551746,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 9
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p118-c01",
+    "page": 118,
+    "score": -1.659932,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 2,
+     "bm25": 12
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p118-c02",
+    "page": 118,
+    "score": -2.964856,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 5,
+     "bm25": 5
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p121-c04",
+    "page": 121,
+    "score": -3.719158,
+    "is_evidence": null,
+    "source_ranks": {
+     "bm25": 11
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p116-c01",
+    "page": 116,
+    "score": -4.090591,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 10,
+     "bm25": 4
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p115-c01",
+    "page": 115,
+    "score": -4.223925,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 11
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p102-c00",
+    "page": 102,
+    "score": -4.574228,
+    "is_evidence": null,
+    "source_ranks": {
+     "bm25": 10
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p115-c02",
+    "page": 115,
+    "score": -4.600396,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 7
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p132-c00",
+    "page": 132,
+    "score": -4.840725,
+    "is_evidence": null,
+    "source_ranks": {
+     "bm25": 2
+    }
+   }
+  ]
+ },
+ {
+  "method": "rerank",
+  "use_filter": true,
+  "id": "u04",
+  "split": "test",
+  "answerable": false,
+  "question": "Under the UDRP, how can a trademark owner recover a domain name from a cybersquatter?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": null,
+  "latency_ms": 1002.5,
+  "top": [
+   {
+    "rank": 1,
+    "id": "C-openstax-intro-ip-2021-p158-c03",
+    "page": 158,
+    "score": -5.37801,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 1,
+     "bm25": 18
+    }
+   },
+   {
+    "rank": 2,
+    "id": "C-openstax-intro-ip-2021-p154-c00",
+    "page": 154,
+    "score": -5.390817,
+    "is_evidence": null,
+    "source_ranks": {
+     "bm25": 1
+    }
+   },
+   {
+    "rank": 3,
+    "id": "C-openstax-intro-ip-2021-p146-c01",
+    "page": 146,
+    "score": -6.282272,
+    "is_evidence": null,
+    "source_ranks": {
+     "bm25": 5
+    }
+   },
+   {
+    "rank": 4,
+    "id": "C-openstax-intro-ip-2021-p162-c01",
+    "page": 162,
+    "score": -6.41056,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 18,
+     "bm25": 14
+    }
+   },
+   {
+    "rank": 5,
+    "id": "C-openstax-intro-ip-2021-p157-c02",
+    "page": 157,
+    "score": -7.996489,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 2
+    }
+   },
+   {
+    "rank": 6,
+    "id": "C-openstax-intro-ip-2021-p142-c03",
+    "page": 142,
+    "score": -8.484861,
+    "is_evidence": null,
+    "source_ranks": {
+     "bm25": 7
+    }
+   },
+   {
+    "rank": 7,
+    "id": "C-openstax-intro-ip-2021-p158-c00",
+    "page": 158,
+    "score": -9.509938,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 7
+    }
+   },
+   {
+    "rank": 8,
+    "id": "C-openstax-intro-ip-2021-p156-c01",
+    "page": 156,
+    "score": -9.612963,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 20,
+     "bm25": 2
+    }
+   },
+   {
+    "rank": 9,
+    "id": "C-openstax-intro-ip-2021-p085-c02",
+    "page": 85,
+    "score": -9.620812,
+    "is_evidence": null,
+    "source_ranks": {
+     "bm25": 6
+    }
+   },
+   {
+    "rank": 10,
+    "id": "C-openstax-intro-ip-2021-p122-c06",
+    "page": 122,
+    "score": -9.771169,
+    "is_evidence": null,
+    "source_ranks": {
+     "dense": 6
+    }
+   }
+  ]
+ }
+]

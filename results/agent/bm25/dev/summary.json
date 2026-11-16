@@ -1,0 +1,27 @@
+{
+ "N": 20,
+ "errors": 0,
+ "tool_use": "20/20",
+ "searches_distribution": {
+  "1": 20
+ },
+ "context_evidence_rate": "16/18",
+ "context_evidence_rate_pct": 0.889,
+ "context_missing": [
+  "d03",
+  "d16"
+ ],
+ "answered_answerable": "16/18",
+ "false_abstain_ids": [
+  "d03",
+  "d16"
+ ],
+ "abstained_unanswerable": "2/2",
+ "answered_with_citation": "16/16",
+ "context_chars_mean": 2263,
+ "prompt_tokens_total": 19632,
+ "completion_tokens_total": 1731,
+ "llm_calls_total": 20,
+ "cost_usd_total": 0.00398,
+ "latency_s_median": 2.395
+}

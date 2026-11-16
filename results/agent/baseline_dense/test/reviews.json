@@ -1,0 +1,71 @@
+[
+ {
+  "query_id": "t01",
+  "citation_support": [
+   true
+  ],
+  "note": "Correct: CC licences cannot limit fair use; p132-c01 contains the exact sentence.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "t02",
+  "citation_support": [
+   true
+  ],
+  "note": "Correct: brand-reputation reason; second sentence (injunction prohibits continued sales) also stated in p162-c01.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "t03",
+  "citation_support": [
+   true,
+   true,
+   true
+  ],
+  "note": "Gold quote (p185-c00) NOT in context, but valid alternative evidence was: p185-c01 ('duration ... time required for independent development', head-start = proper means) and p184-c02 (injunction terminates when the secret ceases to exist). Answer covers both parts; all 3 citations support their sentences. Automatic CER counts this as a miss because the gold list has only one evidence passage.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "t04",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Correct: secondary meaning, Sharp/Windows; p152-c04 supports the 'established over time through sales and advertising' sentence.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "t05",
+  "citation_support": [
+   true
+  ],
+  "note": "Correct: doctrine of equivalents, function-way-result test, from p067-c01.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "t06",
+  "citation_support": [
+   true
+  ],
+  "note": "Correct: 250 words of a poem, p122-c05.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "u03",
+  "citation_support": [],
+  "note": "Abstained; context was general copyright/authorship passages with nothing on AI. No extra claim made.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u04",
+  "citation_support": [],
+  "note": "Abstained; context was trademark registration passages, nothing on UDRP/domains.",
+  "abstention_correct": true
+ }
+]

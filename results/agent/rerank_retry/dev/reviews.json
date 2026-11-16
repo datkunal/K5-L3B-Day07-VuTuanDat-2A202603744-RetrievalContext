@@ -1,0 +1,179 @@
+[
+ {
+  "query_id": "d01",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d02",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d03",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text. p053-c04 contains the full utility < novelty < non-obviousness hurdle ranking."
+ },
+ {
+  "query_id": "d04",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d05",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text. If p055-c03 is cited it supports the 'new, original, non-obvious ornamental designs' sentence."
+ },
+ {
+  "query_id": "d06",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d07",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d08",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d09",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d10",
+  "citation_support": [
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text. Extra citation (p118-c02 or p120-c03) read: it supports the added 'registration recommended / statutory damages' sentence."
+ },
+ {
+  "query_id": "d11",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d12",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d13",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d14",
+  "citation_support": [
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d15",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d16",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d17",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text."
+ },
+ {
+  "query_id": "d18",
+  "citation_support": [
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "note": "Matches the expected answer incl. conditions; checked against the cited passage text. p186-c02 and p186-c03 both contain the twice-the-award cap and the state-modification sentence, so either citation order is supported."
+ },
+ {
+  "query_id": "u01",
+  "citation_support": [],
+  "abstention_correct": true,
+  "note": "Abstained without extra claims. Corpus check: The book covers U.S. law only; Vietnam and its IP office are never mentioned. A U.S. patent term answer would not answer the question."
+ },
+ {
+  "query_id": "u02",
+  "citation_support": [],
+  "abstention_correct": true,
+  "note": "Abstained without extra claims. Corpus check: The book only says a U.S. registration can be a basis for foreign registration (p.157); WIPO, the Madrid system and its fees are not covered."
+ }
+]

@@ -1,0 +1,2225 @@
+[
+ {
+  "query_id": "d01",
+  "split": "dev",
+  "answerable": true,
+  "question": "Can a U.S. patent be enforced in another country?",
+  "status": "answered",
+  "answer": "A U.S. patent cannot be enforced in another country, as it is only recognized domestically and provides rights solely within the United States [C-openstax-intro-ip-2021-p019-c00].",
+  "citations": [
+   "C-openstax-intro-ip-2021-p019-c00"
+  ],
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "Can a U.S. patent be enforced in another country?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 143.1,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p019-c00",
+      "page": 19,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p072-c06",
+      "page": 72,
+      "score": 0.032266
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p066-c00",
+      "page": 66,
+      "score": 0.031258
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p019-c00",
+     "C-openstax-intro-ip-2021-p072-c06",
+     "C-openstax-intro-ip-2021-p066-c00"
+    ],
+    "elapsed_ms": 143.2
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p019-c00"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p019-c00"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p019-c00",
+    "page": 19,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "In the United States, a patent is a legal instrument in the form of a document issued by the United States Patent and Trademark Office (USPTO). It gives the inventor of any new, useful, and non-obvious machine, process, manufacture, or composition of matter the right “to exclude others from making, using, offering for sale, or selling the invention throughout the United States or importing the invention into the United States” for a limited time in exchange for public disclosure of the invention.iA U.S. patent is only recognized domestically, and cannot be enforced in another country.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p072-c06",
+    "page": 72,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "The practical effect is almost the same as a single case with multiple defendants. ix If the alleged infringer is the federal government itself, or a government contractor, the proper venue is the Court of Federal Claims. 28 U.S.C. §1491 Another forum for enforcing a U.S. patent against imported goods exists at the U.S. International Trade",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p066-c00",
+    "page": 66,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Introduction\n\n2.1 The Right to Enforce Patents\n\nFigure 2.2 The statue of Blind Justice in front of the Albert V. Bryan United States Courthouse in Alexandria, Virginia. (credit: Tim Evanson via flickr / CC BY 2.0)\n\nLearning Objectives\n\nAfter completing this section, you will be able to\n\n• Understand the basic rights of patent owners.\n\n• Gain an appreciation of the complex process of patent litigation.\n\nPatents issued by the United States Patent and Trademark Office (USPTO) can be enforced by their owners in U.S. federal courts. The USPTO is responsible only for examining and issuing patents—it does not enforce them. It is up to the owner of the patent to enforce it against infringers by filing a civil case in federal court for patent infringement.",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 1689,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1690,
+   "completion_tokens": 132,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000333,
+  "latency_s": 4.57,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d02",
+  "split": "dev",
+  "answerable": true,
+  "question": "If the applicant offered the invention for sale before filing, how much time can pass before it loses novelty for a patent?",
+  "status": "answered",
+  "answer": "If the applicant offered the invention for sale, it can lose novelty for a patent if this occurs more than 12 months prior to the filing of a patent application [C-openstax-intro-ip-2021-p051-c00].",
+  "citations": [
+   "C-openstax-intro-ip-2021-p051-c00"
+  ],
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "If the applicant offered the invention for sale before filing, how much time can pass before it loses novelty for a patent?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 147.3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p051-c00",
+      "page": 51,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p050-c05",
+      "page": 50,
+      "score": 0.032018
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p076-c05",
+      "page": 76,
+      "score": 0.028595
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p051-c00",
+     "C-openstax-intro-ip-2021-p050-c05",
+     "C-openstax-intro-ip-2021-p076-c05"
+    ],
+    "elapsed_ms": 147.4
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p051-c00"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p051-c00"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p051-c00",
+    "page": 51,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "offered for sale by the applicant or their colleagues more than 12 months prior to the filing of a patent application.\n\nFigure 1.18 Patent for dog ear protectors designed to keep a dog's hair clean while eating. (creadit: USPTO via uspto.gov / Public domain)\n\nIf any of the above is true of an invention, it is said to have been “anticipated” and cannot be patented. These novelty requirements exist whether the “prior art”—the catchall term for any previous patent, publication, or use—is domestic or foreign.\n\nThis does not mean, of course, that your faster-than-light warp drive is unpatentable simply because it was envisioned in a general way in episodes of Star Trek and its successors’ television shows, and in many Star Trek books.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p050-c05",
+    "page": 50,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Novelty\n\nThe requirement in Sections 101 and 102 of the Patent Act for novelty in an invention means that to qualify for a patent, a machine, manufacture, process, or composition of matter must not have been previously described or known. Specifically, it must not have been patented, described in an unpublished or published patent application, explained in a printed publication such as an article or technical paper, or publicly known prior to the filing date of the new patent application. In addition, it must not have been published, used in public, or xlix 35 U.S.C.§101, §102, and §103",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p076-c05",
+    "page": 76,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "P. xix 35 U.S.C §273, which provides a defense to patent infringement for someone who can prove, by clear and convincing evidence, that they acted in good faith and commercially used the subject matter of the patent in the U.S. at least one year before the effective filing date of the patent or the invention’s first public disclosure. xx See Rules 8-9, and 12, Fed. R. Civ. P. xxi See Rule 13, Fed. R. Civ. P. xxii See Rule 7, Fed. R. Civ. P. xxiii See Rules 8 and 13, Fed. R. Civ. P. xxiv See the PTO’s discussion of the AIA at http://www.uspto.gov/aia_implementation/index.jsp.",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 1913,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1929,
+   "completion_tokens": 142,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000375,
+  "latency_s": 4.12,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d03",
+  "split": "dev",
+  "answerable": true,
+  "question": "Which of the patentability requirements is the toughest one for an inventor to clear?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "abstain_reason": "The passages do not provide a clear answer regarding which patentability requirement is the toughest for an inventor to clear.",
+  "citations": [],
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "Which of the patentability requirements is the toughest one for an inventor to clear?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 117.5,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p058-c00",
+      "page": 58,
+      "score": 0.030303
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p047-c02",
+      "page": 47,
+      "score": 0.029462
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p052-c01",
+      "page": 52,
+      "score": 0.027984
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p058-c00",
+     "C-openstax-intro-ip-2021-p047-c02",
+     "C-openstax-intro-ip-2021-p052-c01"
+    ],
+    "elapsed_ms": 117.6
+   },
+   {
+    "event": "abstain",
+    "reason": "The passages do not provide a clear answer regarding which patentability requirement is the toughest for an inventor to clear."
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p058-c00",
+    "page": 58,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Figure 1.22 The first patent drawing for Lizzie Magie's board game, The Landlord Game. (credit: U.S. National Archives via Wikimedia Commons / Public domain)\n\nThe Critical Importance of the Claims\n\nWhen it comes to filing a full nonprovisional application, the most critical task of the inventor (and patent attorney) is to draft the claims. This is an art in and of itself, one that will determine the inventor’s rights and an infringer’s liability.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p047-c02",
+    "page": 47,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Cronin calls this the “Alice Paradox,” and it has left many in-house patent groups struggling for a solution. One thing is clear: To be patentable nowadays, software has to take a genuinely-inventive step and either trigger an action, employ a device, or in some other way produce a tangible transformative result. In addition, smart companies are trying to address patentability issues involving software and business processes much earlier in the innovation cycle, before huge investments are made in R&D that may turn out to be not patentable.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p052-c01",
+    "page": 52,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "As the Star Trek example suggests, the novelty issue can also touch on the question of utility—the second patentability criteria. Utility has a special meaning in patent law, which is simply that an invention must function and be of some benefit qualitatively—although no minimum quantum of benefit is necessary. The landscape of business is littered with companies that have invented not very useful or necessary products. But these may satisfy the requirement for utility if at least someone would find them useful. But snake oil medicines and other products that do not work in any meaningful way will not meet the requirement for utility. “The inventor of an ineffective drug may not obtain a patent merely because he convinces gullible patients that it has a non-existent curative effect,” Miller and Davis note. “It is not so much that it lacks a minimum quantum of benefit (the patients may find it subjectively useful), but it is, instead, that it has an impermissible fraudulent quality.”",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 1993,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 840,
+   "completion_tokens": 36,
+   "llm_calls": 1
+  },
+  "cost_usd": 0.000148,
+  "latency_s": 1.63,
+  "context_has_evidence": false
+ },
+ {
+  "query_id": "d04",
+  "split": "dev",
+  "answerable": true,
+  "question": "What are the criteria for plant patentability?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "citations": [],
+  "abstain_reason": "citations invalid after one correction",
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "What are the criteria for plant patentability?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 118.6,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p055-c02",
+      "page": 55,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p055-c01",
+      "page": 55,
+      "score": 0.032258
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p050-c04",
+      "page": 50,
+      "score": 0.031258
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p055-c02",
+     "C-openstax-intro-ip-2021-p055-c01",
+     "C-openstax-intro-ip-2021-p050-c04"
+    ],
+    "elapsed_ms": 118.6
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p055-c02"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p055-c02"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p055-c02"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p055-c02"
+    ]
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p055-c02",
+    "page": 55,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Instead of novelty, utility, and non-obviousness, the criteria for plant patentability are novelty, distinctiveness, and non-obviousness. To be patentable, plants must be cultivated rather than found in the wild, and plant patents are granted only to protect a new, distinct, and non-obvious variety of asexually reproduced plant—i.e., those grown not with seeds but by grafting, budding, or cutting. A plant need not be useful to qualify for a patent, but it must be distinctive in its color, habit, soil, flavor, productivity, form, or other aspects. Design Patents",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p055-c01",
+    "page": 55,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Plant patents were first created by the Patent Act of 1930 (https://www.openstax.org/l/PatentAct1930), which had been proposed by Luther Burbank to protect new species of asexually reproduced plants, mostly flowers. These are different than the utility patents granted to bioengineered plants used in agriculture. The United States was the first country in the world to grant plant patents, and even today many countries continue to deny protection for plants. Indeed, even some signatories to the Agreement on Trade-Related Aspects of Intellectual Property Rights (TRIPS) administered by the World Trade Organization (WTO) reserve the right to deny patents for plants.\n\nAlthough the requirements for plant and design patents are substantially the same as those for utility patents, there are some crucial differences. The most important of these is the substitution of a different test for one of the three criteria for patentability discussed in the previous section.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p050-c04",
+    "page": 50,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Access multimedia content (http://openstax.org/books/introduction-intellectual-property/pages/1-7-criteria-for-patenting) Now that you’ve learned what can be patented and what cannot, we will next examine the criteria for determining if a patent-eligible invention actually merits one. These criteria center around three concepts mentioned in the previous section and enumerated in the Patent Act: novelty, utility, and non- obviousness.xlix Let’s discuss these three concepts in greater detail.",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2031,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1848,
+   "completion_tokens": 208,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000402,
+  "latency_s": 5.59,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d05",
+  "split": "dev",
+  "answerable": true,
+  "question": "Which criteria does a design patent have to satisfy?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "citations": [],
+  "abstain_reason": "citations invalid after one correction",
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "Which criteria does a design patent have to satisfy?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 99.0,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p055-c04",
+      "page": 55,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p055-c02",
+      "page": 55,
+      "score": 0.031746
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p050-c04",
+      "page": 50,
+      "score": 0.03125
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p055-c04",
+     "C-openstax-intro-ip-2021-p055-c02",
+     "C-openstax-intro-ip-2021-p050-c04"
+    ],
+    "elapsed_ms": 99.0
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p055-c04"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p055-c04"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p055-c04"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p055-c04"
+    ]
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p055-c04",
+    "page": 55,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Like plant patents, design patents also substitute a different test than utility in their requirements for patentability. Instead of the novelty, utility, and non-obvious requirements for utility patents, the criteria for design patents are novelty, ornamentality, and non-obviousness.\n\nIt was on the subject of design patents that one example of media confusion appeared. The New York Times published an article November 16, 2012, declaring in a sensational headline that “Apple Now Owns the Page Turn (https://www.openstax.org/l/ApplePageTurn).” The article claimed that a new Apple design patent “gives Apple the exclusive rights to the page turn in an e-reader application.” According to the article’s author, this showed “just how broken the patent system is.”",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p055-c02",
+    "page": 55,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Instead of novelty, utility, and non-obviousness, the criteria for plant patentability are novelty, distinctiveness, and non-obviousness. To be patentable, plants must be cultivated rather than found in the wild, and plant patents are granted only to protect a new, distinct, and non-obvious variety of asexually reproduced plant—i.e., those grown not with seeds but by grafting, budding, or cutting. A plant need not be useful to qualify for a patent, but it must be distinctive in its color, habit, soil, flavor, productivity, form, or other aspects. Design Patents",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p050-c04",
+    "page": 50,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Access multimedia content (http://openstax.org/books/introduction-intellectual-property/pages/1-7-criteria-for-patenting) Now that you’ve learned what can be patented and what cannot, we will next examine the criteria for determining if a patent-eligible invention actually merits one. These criteria center around three concepts mentioned in the previous section and enumerated in the Patent Act: novelty, utility, and non- obviousness.xlix Let’s discuss these three concepts in greater detail.",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 1827,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1735,
+   "completion_tokens": 98,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000319,
+  "latency_s": 3.22,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d06",
+  "split": "dev",
+  "answerable": true,
+  "question": "How large is the USPTO fee discount for micro entities, and who qualifies as one?",
+  "status": "answered",
+  "answer": "Micro entities receive a 75 percent discount on USPTO application fees. To qualify as a micro entity, an applicant must have a gross income less than three times the U.S. median household income or meet certain other criteria [C-openstax-intro-ip-2021-p057-c00].",
+  "citations": [
+   "C-openstax-intro-ip-2021-p057-c00"
+  ],
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "How large is the USPTO fee discount for micro entities, and who qualifies as one?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 102.6,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p057-c00",
+      "page": 57,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p056-c01",
+      "page": 56,
+      "score": 0.029762
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p158-c04",
+      "page": 158,
+      "score": 0.028778
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p057-c00",
+     "C-openstax-intro-ip-2021-p056-c01",
+     "C-openstax-intro-ip-2021-p158-c04"
+    ],
+    "elapsed_ms": 102.6
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p057-c00"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p057-c00"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p057-c00",
+    "page": 57,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "meet certain other criteria, receive a 50 percent discount on the application fees paid by large entities. Micro entities, which are small entities who have a gross income less than three times U.S. median household income or meet certain other criteria, receive a 75 percent discount. These discounts on USPTO fees for small and micro entities do not apply to the attorneys’ fees often involved in applying for a patent, which can be significant.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p056-c01",
+    "page": 56,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "• Discuss the importance of proper claims drafting.\n\nApplying for a Patent\n\nMuch is at stake in the process of applying for a patent. Depending upon how you draft the claims and write the specification of your application, you could win or lose patent rights at any point in the examination process. In addition, any patent rights you win can be worth a considerable amount of money, and can be enforced by the U.S. federal courts.\n\nAn applicant must first determine whether to file an application for a utility, design, or plant patent. Then, the applicant must determine their filing status: large entity, small entity, or the new category of micro entity created by the America Invents Act of 2011 (AIA) (https://www.openstax.org/l/AmericaInventsAct). Small entities, which are universities, non-profits, and small businesses with fewer than 500 employees who also",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p158-c04",
+    "page": 158,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "B. The fee for each class of goods/services in the registration to which the Declaration pertains. C. A statement that declares: -The mark has been in continuous use in commerce for a period of five years and is still in use in commerce -No final decision exists adverse to the owner’s claim of ownership of the mark for the goods/services, or to the owner’s right to register the mark or to keep the same on the register -No pending proceeding exists involving the claimed rights in the USPTO or in the courts D. A signed and dated affidavit or declaration under 37 C.F.R. §2.20xxxvii xxxvi Protecting Your Trademark: Basic Facts About Trademarks, U.S. Patent and Trademark Office, derived from: http://www.uspto.gov/trademarks/basics/BasicFacts.pdf xxxvii United States Patent and Trademark Office. (21 August, 2012). Maintain/Renew a Registration: How to Keep a Registration",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2191,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1961,
+   "completion_tokens": 166,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000394,
+  "latency_s": 4.56,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d07",
+  "split": "dev",
+  "answerable": true,
+  "question": "Is a provisional patent application examined, and how long does it remain viable?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "citations": [],
+  "abstain_reason": "citations invalid after one correction",
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "Is a provisional patent application examined, and how long does it remain viable?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 105.8,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p057-c01",
+      "page": 57,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p057-c02",
+      "page": 57,
+      "score": 0.031498
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p057-c03",
+      "page": 57,
+      "score": 0.031281
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p057-c01",
+     "C-openstax-intro-ip-2021-p057-c02",
+     "C-openstax-intro-ip-2021-p057-c03"
+    ],
+    "elapsed_ms": 105.8
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p057-c01"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p057-c01"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p057-c01"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p057-c01"
+    ]
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p057-c01",
+    "page": 57,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Provisional vs. Nonprovisional Patent Application\n\nFinally, the applicant must decide whether to file an abbreviated, “provisional” patent application or a complete, “nonprovisional” one. A provisional application consists only of the specification describing the invention for which a patent is sought, as well as any drawings that might be necessary to understand the invention. A provisional application is not subject to examination, and is viable for one year. The chief benefits of a provisional application are twofold. It is much less expensive to file than a regular nonprovisional application—only $1,000 in official fees for large entities, $500 for small entities, and $250 for micro entities. It also gives the inventor the benefit of the earlier provisional filing date of the nonprovisional application based on the same specification, while measuring the term of the patent from the nonprovisional application’s filing date.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p057-c02",
+    "page": 57,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "In a sense, the provisional application serves as a placeholder for up to one year while the inventor does all the prior art searching, claims drafting, and other work required of a full and complete nonprovisional application. This priority date placeholder function can be important given that many companies and inventors are working on new products and services aimed at the same markets. This is especially so under the United States’ new “first inventor to file” rather than “first to invent” priority regime, which some fear may give an edge to large companies with the legal and financial resources to file early and often. To the extent this concern may be valid, provisional applications can serve to mitigate any large company filing advantage.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p057-c03",
+    "page": 57,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "The main disadvantage of a provisional application is that because the written description cannot be changed when filing the follow-on, nonprovisional application, all the subsequent claims in that follow-on application must be completely consistent with the earlier description language. As most inventors can attest, the understanding of an invention and its potential market—as well as the claims best suited to protect it—inevitably evolves and matures over time.\n\nHere’s how an experienced entrepreneur describes the value of a provisional application in the “first inventor to file” environment:",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2296,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1828,
+   "completion_tokens": 90,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000328,
+  "latency_s": 3.49,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d08",
+  "split": "dev",
+  "answerable": true,
+  "question": "What usually happens when a patent owner who does not compete with the infringer asks for an injunction?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "citations": [],
+  "abstain_reason": "citations invalid after one correction",
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "What usually happens when a patent owner who does not compete with the infringer asks for an injunction?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 109.4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p090-c00",
+      "page": 90,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p120-c03",
+      "page": 120,
+      "score": 0.029727
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p074-c00",
+      "page": 74,
+      "score": 0.027273
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p090-c00",
+     "C-openstax-intro-ip-2021-p120-c03",
+     "C-openstax-intro-ip-2021-p074-c00"
+    ],
+    "elapsed_ms": 109.4
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p090-c00"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p090-c00"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p090-c00"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p090-c00"
+    ]
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p090-c00",
+    "page": 90,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Usually, patentees who are competitors of the infringer can meet these requirements. However, patentees who are not competitors of the infringer are usually unsuccessful in convincing courts that they are entitled to injunctive relief, and are left with only money damages(usually an on going reasonable royalty) to compensate for future infringement. This removes the most serious risk an alleged infringer faces—being barred from the market—making fighting cases through trial more palatable than before. This new rule from the Supreme Court has driven many plaintiffs out of federal court and into the International Trade Commission (ITC), when the allegedly infringing products are imported, because the ITC issues exclusion orders and cease and desist orders (roughly equivalent to federal court injunctions barring further sales) without regard to the requirements the Supreme Court laid down in the eBay decision.lxvi",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p120-c03",
+    "page": 120,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Only the owners of registered copyrights may file for statutory damages. That’s another reason why it’s a good idea to register your copyright.\n\nSometimes, though, the copyright owner’s most important remedy for infringement will be an injunction that forces the infringer to stop illegal actions that cause continuing damage to their rights. The grounds for getting that injunction, however, have tightened in recent years and now require the plaintiff, or copyright owner, to provide substantial evidence of infringement that cannot be repaired without an injunction. As the court of appeals for the ninth circuit put it in 2011:",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p074-c00",
+    "page": 74,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Another issue you face is whether to notify the alleged infringer before filing suit. This seems prudent—demand that the infringer cease the infringement before filing a lawsuit aimed at enforcing such cessation. But such a strategy is fraught with pitfalls. First, accusing someone of infringement allows them to sue you preemptively, asking the court for a quick decision that no infringement exists. This type of judicial decision is called a declaratory judgment of noninfringement.xIf the accused infringer sues you before you sue them, the accused infringer becomes the plaintiff and can sue in a forum of their choice. Ceding to your opponent the initiative and the choice of forum for the litigation is a strategic blunder that could cost you not just that battle, but the war. Second, an old adage applies here: If you are going to kick someone, don’t warn them, because they will prepare to deflect the blow. Patent litigation (like all litigation) is like war, albeit civilized war.",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2548,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 2038,
+   "completion_tokens": 204,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000428,
+  "latency_s": 5.39,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d09",
+  "split": "dev",
+  "answerable": true,
+  "question": "Since the 2006 Supreme Court decision, what must a winning plaintiff prove to get a permanent injunction?",
+  "status": "answered",
+  "answer": "Since the 2006 Supreme Court decision, a winning plaintiff must prove: (1) that it has suffered an irreparable injury; (2) that remedies available at law are inadequate to compensate for that injury; (3) that the balance of hardships between the plaintiff and defendant warrants a remedy in equity; and (4) that the public interest would not be disserved by a permanent injunction [C-openstax-intro-ip-2021-p089-c04].",
+  "citations": [
+   "C-openstax-intro-ip-2021-p089-c04"
+  ],
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "Since the 2006 Supreme Court decision, what must a winning plaintiff prove to get a permanent injunction?",
+    "query_kind": "original",
+    "filter": {
+     "ip_type": "patent"
+    },
+    "top_k": 3,
+    "latency_ms": 108.5,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p089-c04",
+      "page": 89,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p046-c04",
+      "page": 46,
+      "score": 0.030835
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p090-c00",
+      "page": 90,
+      "score": 0.030366
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p089-c04",
+     "C-openstax-intro-ip-2021-p046-c04",
+     "C-openstax-intro-ip-2021-p090-c00"
+    ],
+    "elapsed_ms": 108.5
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p089-c04"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p089-c04"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p089-c04",
+    "page": 89,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "A successful patentee may also be entitled to injunctive relief, barring further sales of the infringing product or service. This is the most potent relief available to patentees. Prior to 2006, it was presumed that a patentee who proved patent infringement was irreparably injured and entitled to an automatic injunction. But in 2006, the Supreme Court rejected the presumption and ruled that, in all other kinds of cases, a successful patentee is required to prove each of the following requirements for injunctive relief: (1) that it has suffered an irreparable injury; (2) that remedies available at law are inadequate to compensate for that injury; (3) that considering the balance of hardships between the plaintiff and defendant, a remedy in equity is warranted; (4) that the public interest would not be disserved by a permanent injunction.lxv lxiii Highmark Inc. v. Allcare Health Management System, Inc. (572 U.S._)(No. 12-1163.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p046-c04",
+    "page": 46,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "But then in June of 2014, The Supreme Court issued what may prove to be its most consequential decision on the patentability of software in the 33 years since Diamond v. Diehr. In Alice v. CLS Bank, the Court ruled that taking some activity that people have been doing for centuries—in this case, holding funds in escrow until a transaction is completed—and then merely “doing it through a computer” did not turn this age-old activity into a patentable new invention.\n\nAt first, many observers believed that the effects of the Alice v. CLS Bank ruling would be very limited. Only the patent in the suit was invalidated, after all, not all software patents. What’s more, the abstract reasoning of the court in its decision did not provide clarity on how the ruling may or may not apply to other kinds of software patents—for example, the sort of software used in manufacturing that was ruled patentable in the 1981 Diamond v. Diehr case.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p090-c00",
+    "page": 90,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Usually, patentees who are competitors of the infringer can meet these requirements. However, patentees who are not competitors of the infringer are usually unsuccessful in convincing courts that they are entitled to injunctive relief, and are left with only money damages(usually an on going reasonable royalty) to compensate for future infringement. This removes the most serious risk an alleged infringer faces—being barred from the market—making fighting cases through trial more palatable than before. This new rule from the Supreme Court has driven many plaintiffs out of federal court and into the International Trade Commission (ITC), when the allegedly infringing products are imported, because the ITC issues exclusion orders and cease and desist orders (roughly equivalent to federal court injunctions barring further sales) without regard to the requirements the Supreme Court laid down in the eBay decision.lxvi",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2798,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 2248,
+   "completion_tokens": 236,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000479,
+  "latency_s": 6.04,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d10",
+  "split": "dev",
+  "answerable": true,
+  "question": "When does a copyright holder actually need to register the work?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "citations": [],
+  "abstain_reason": "citations invalid after one correction",
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "When does a copyright holder actually need to register the work?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 95.4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p103-c00",
+      "page": 103,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p118-c02",
+      "page": 118,
+      "score": 0.032522
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p120-c03",
+      "page": 120,
+      "score": 0.03055
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p103-c00",
+     "C-openstax-intro-ip-2021-p118-c02",
+     "C-openstax-intro-ip-2021-p120-c03"
+    ],
+    "elapsed_ms": 95.5
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p103-c00",
+     "C-openstax-intro-ip-2021-p118-c02",
+     "C-openstax-intro-ip-2021-p120-c03"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p103-c00",
+     "C-openstax-intro-ip-2021-p118-c02",
+     "C-openstax-intro-ip-2021-p120-c03"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p103-c00",
+     "C-openstax-intro-ip-2021-p118-c02",
+     "C-openstax-intro-ip-2021-p120-c03"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p103-c00",
+     "C-openstax-intro-ip-2021-p118-c02",
+     "C-openstax-intro-ip-2021-p120-c03"
+    ]
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p103-c00",
+    "page": 103,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "How to Obtain a Copyright\n\nIn America, the copyright system is administered by the U.S. Copyright Office, which is part of the Library of Congress and maintains a registry of copyrighted works. Interestingly, registration is not required to obtain a copyright. It is automatically granted to an author at the moment of creation—i.e., as soon as the work is expressed in a tangible form that allows it to be seen or copied, such as being written on paper or on a computer, or recorded as video or audio. Registration is only required if a copyright holder wants to initiate a copyright infringement suit in federal court.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p118-c02",
+    "page": 118,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Although the requirement of registration as a condition of federal copyright protection was discarded over a century ago, when Congress passed the Copyright Act of 1909, the requirement that proper copyright notice be affixed to copies of published works survived much longer. It was only dropped in 1989, when the United States joined the Berne Convention and had to amend its copyright law to comply with the terms of that convention. Notice and registration of copyright are now discretionary, but recommended. Registration of a copyright provides a legal record of copyright ownership in cases where infringement is alleged, and in fact is required before the author can even file suit for infringement.xx To register a published work, an author will usually need to submit two copies of the work to the U.S. Copyright Office.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p120-c03",
+    "page": 120,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Only the owners of registered copyrights may file for statutory damages. That’s another reason why it’s a good idea to register your copyright.\n\nSometimes, though, the copyright owner’s most important remedy for infringement will be an injunction that forces the infringer to stop illegal actions that cause continuing damage to their rights. The grounds for getting that injunction, however, have tightened in recent years and now require the plaintiff, or copyright owner, to provide substantial evidence of infringement that cannot be repaired without an injunction. As the court of appeals for the ninth circuit put it in 2011:",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2081,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1845,
+   "completion_tokens": 222,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.00041,
+  "latency_s": 5.85,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d11",
+  "split": "dev",
+  "answerable": true,
+  "question": "How long does copyright last for a work with two or more authors?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "citations": [],
+  "abstain_reason": "citations invalid after one correction",
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "How long does copyright last for a work with two or more authors?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 114.7,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p116-c02",
+      "page": 116,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p116-c03",
+      "page": 116,
+      "score": 0.031025
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p117-c00",
+      "page": 117,
+      "score": 0.030622
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p116-c02",
+     "C-openstax-intro-ip-2021-p116-c03",
+     "C-openstax-intro-ip-2021-p117-c00"
+    ],
+    "elapsed_ms": 114.7
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p116-c02"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p116-c02"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p116-c02"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p116-c02"
+    ]
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p116-c02",
+    "page": 116,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "The term or time period of a copyright varies. For an individual, the term of a copyright is the life of the author plus 70 years after the author is deceased. For a work with two or more authors, the term expires 70 years after the last author’s death. Finally, for works that are “made for hire,” or anonymous or pseudonymous works, the copyright term lasts 95 years from the first publication or 120 years from the year of the work’s creation, whichever comes first.xv As examples, assume a musical artist writes a song that is published and performed under their name. The copyright will last 70 years beyond their death, and could conceivably be quite valuable to their heirs.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p116-c03",
+    "page": 116,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "On the other hand, imagine that an anonymous Korean War soldier’s diary, dated “December 1951” is discovered in an antique shop in the year 2013 and published that same year. Ordinarily, the copyright for an anonymous work would last for 95 years from the date of first publication, expiring in the year 2108. But because the date of creation is known to be 1951, the copyright would expire in 2071, or 120 years after it was written.\n\nAs noted earlier and discussed later in Section 3.9 of this chapter, these lengthy terms for copyright are controversial and opposed even by many supporters of copyright.\n\nWork for Hire\n\nAccording to U.S. law, a work for hire is:",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p117-c00",
+    "page": 117,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "subject of interest to the industry. Or let’s say you’re a contractor hired to perform that same task under a “work for hire” arrangement. You will not own the copyright to that section of the white paper when it is completed, nor can you publish or use it if you leave the company and go to work for someone else. Although it is your creation, it is owned by the employer, who often uses your work product as part of an integrated project involving other contributors. The copyright for this particular white paper will last for 95 years from the year of first publication, or for 120 years from the year of its creation, whichever expires first. First-Sale Doctrine",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2013,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1848,
+   "completion_tokens": 108,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000342,
+  "latency_s": 3.72,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d12",
+  "split": "dev",
+  "answerable": true,
+  "question": "After buying copies of a novel, may a bookstore print additional copies of it under the first-sale doctrine?",
+  "status": "answered",
+  "answer": "No, a bookstore cannot print additional copies of a novel even after buying copies of it under the first-sale doctrine. While the doctrine allows the bookstore to sell, rent, or give away the purchased copies, it does not limit the copyright owner's reproduction right, meaning the bookstore cannot make additional copies [C-openstax-intro-ip-2021-p117-c01].",
+  "citations": [
+   "C-openstax-intro-ip-2021-p117-c01"
+  ],
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "After buying copies of a novel, may a bookstore print additional copies of it under the first-sale doctrine?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 110.5,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p117-c01",
+      "page": 117,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p117-c02",
+      "page": 117,
+      "score": 0.032258
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p117-c03",
+      "page": 117,
+      "score": 0.031746
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p117-c01",
+     "C-openstax-intro-ip-2021-p117-c02",
+     "C-openstax-intro-ip-2021-p117-c03"
+    ],
+    "elapsed_ms": 110.6
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p117-c01"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p117-c01"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p117-c01",
+    "page": 117,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "It is important to note, however, that an author’s distribution rights (No. 3 above) are strictly limited by what is known as the first-sale doctrine, which terminates those distribution rights once he sells or distributes the work to someone else. For example, once the author of a copyrighted novel lets a publisher distribute copies of that novel to a bookstore, the author’s distribution rights to those copies are ended and the bookstore can do whatever it wants with them—sell them, rent them, give them away, or throw them in the dumpster. The bookstore owner cannot, however, make additional copies of the book because the first-sale doctrine does not limit a copyright owner’s reproduction right (the first right listed above).",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p117-c02",
+    "page": 117,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "The first-sale doctrine was first delineated in the 1908 Supreme Court case Bobbs-Merrill Co. v. Straus (https://www.openstax.org/l/BobbsMerrillCoVStraus). The Bobbs-Merrill Co. distributed copies of a novel titled The Castaway to retailers with the proviso that these be sold for exactly one dollar. Printed right in the book itself, in fact, right after the title page, was the following notice:\n\n“The price of this book at retail is $1 net. No dealer is licensed to sell it at a less price, and a sale at a less price will be treated as an infringement of the copyright.”",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p117-c03",
+    "page": 117,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Retailers, however, sold the book for less than a dollar and the Bobbs-Merrill Co. sued one of them. The high court found that once copies of the book were sold, the distribution rights of the author terminated as to those copies.xvii The ruling came to be known as the first-sale doctrine and was codified into law as 17 U.S.C., § 109. The statute distinctly draws the line at distribution rights, leaving all other rights to the copyright owner. It’s the first-sale doctrine that explains why Amazon.com and eBay allow users to resell secondhand copies of printed books, music, and movies at prices of their own choosing—but only if those copies were legally obtained. It is still illegal to sell pirated works.",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2023,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1923,
+   "completion_tokens": 194,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000405,
+  "latency_s": 5.47,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d13",
+  "split": "dev",
+  "answerable": true,
+  "question": "Who is allowed to file for statutory damages?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "citations": [],
+  "abstain_reason": "citations invalid after one correction",
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "Who is allowed to file for statutory damages?",
+    "query_kind": "original",
+    "filter": {
+     "ip_type": "copyright"
+    },
+    "top_k": 3,
+    "latency_ms": 89.5,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p120-c03",
+      "page": 120,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p120-c02",
+      "page": 120,
+      "score": 0.032258
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p109-c03",
+      "page": 109,
+      "score": 0.030777
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p120-c03",
+     "C-openstax-intro-ip-2021-p120-c02",
+     "C-openstax-intro-ip-2021-p109-c03"
+    ],
+    "elapsed_ms": 89.5
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p120-c03"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p120-c03"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p120-c03"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p120-c03"
+    ]
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p120-c03",
+    "page": 120,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Only the owners of registered copyrights may file for statutory damages. That’s another reason why it’s a good idea to register your copyright.\n\nSometimes, though, the copyright owner’s most important remedy for infringement will be an injunction that forces the infringer to stop illegal actions that cause continuing damage to their rights. The grounds for getting that injunction, however, have tightened in recent years and now require the plaintiff, or copyright owner, to provide substantial evidence of infringement that cannot be repaired without an injunction. As the court of appeals for the ninth circuit put it in 2011:",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p120-c02",
+    "page": 120,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "As we see in the above case, infringing a copyrighted work can carry very significant penalties. The copyright owner has the right to recoup damages and lost profits from infringement. There are two kinds of damages—actual and statutory. The copyright owner may only receive one or the other form of damages.xxiii The Recording Industry Association of America (RIAA), for example, was awarded major damages from Jammie Thomas in 2009 for her willful statutory infringement of 24 copyrighted songs that she had uploaded to the music sharing site Kazaa. Because the infringement was found to be willful, the court in its discretion raised the damages maximum from its usual $30,000 per act of infringement to $80,000 per infringement. That $80,000, times 24 songs that were infringed, resulted in a damage award of $1,920,000xxiv After several trials and appeals, however, the damages assessed against Thomas were reduced to $222,000. Take note, infringers—the risks can be very great, indeed.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p109-c03",
+    "page": 109,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Anyone violating a copyright “shall forfeit all and every copy and all and every sheet to the author or proprietor who shall forthwith destroy the same.” What’s more, “offenders shall also forfeit and pay the sum of fifty cents for every sheet which shall be found in his or her possession.” As a final disincentive to infringers, the law allowed copyright owners to file suit “in any court of record in the United States within one year after the cause of action.” vii State of Connecticut. (1906). Copyright Laws Passed by the Original States: 1783-1786. In T. Solberg (Ed.), Copyright Enactments of the United States, 1783-1906 (2 ed., pg. 11). Retrieved from http://books.google.com/books?id=xNA9AAAAIAAJ&oe=UTF-8",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2339,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1984,
+   "completion_tokens": 84,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000348,
+  "latency_s": 3.31,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d14",
+  "split": "dev",
+  "answerable": true,
+  "question": "Under what two conditions is fair use permitted?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "citations": [],
+  "abstain_reason": "citations invalid after one correction",
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "Under what two conditions is fair use permitted?",
+    "query_kind": "original",
+    "filter": {
+     "ip_type": "trademark"
+    },
+    "top_k": 3,
+    "latency_ms": 108.8,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p163-c00",
+      "page": 163,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p163-c02",
+      "page": 163,
+      "score": 0.032258
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p163-c01",
+      "page": 163,
+      "score": 0.031498
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p163-c00",
+     "C-openstax-intro-ip-2021-p163-c02",
+     "C-openstax-intro-ip-2021-p163-c01"
+    ],
+    "elapsed_ms": 108.8
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p163-c00",
+     "C-openstax-intro-ip-2021-p163-c02"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p163-c00",
+     "C-openstax-intro-ip-2021-p163-c02"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p163-c01",
+     "C-openstax-intro-ip-2021-p163-c02"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p163-c01",
+     "C-openstax-intro-ip-2021-p163-c02"
+    ]
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p163-c00",
+    "page": 163,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "4.11 Fair Use of Trademarks\n\nFigure 4.13 (credit: Kellogg's via Wikimedia Commons / Public domain)\n\nLearning Objectives\n\nAfter completing this section, you will be able to\n\n• Discuss fair use of trademarks.\n\n• Identify examples of fair use cases.\n\nNot every use of a trademark is infringement.\n\nIndividuals and entities may be permitted the fair use of another’s trademark under two conditions. These are known as nominative fair use and classic fair use.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p163-c02",
+    "page": 163,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Under nominative fair use, the entity using the trademark is permitted to use only so much of the mark as is necessary to identify the good or service to which it is referring, and cannot imply any sponsorship or endorsement by the mark holder (unless, of course, the repair shop really is a BMW- or Honda- approved repair facility). Another example is the use of another’s trademark for the purpose of a product review. Classic fair use occurs when a trademark is used in good faith for its primary meaning, and no consumer",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p163-c01",
+    "page": 163,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Nominative fair use covers many occasions on which a party other than the trademark owner is using the mark another party to refer to genuine goods or services. An example of nominative fair use is when an auto repair shop advertises that it repairs BMWs and Hondas. It is using the mark “Honda” to refer to cars genuinely produced by the Honda Motor Company, and simply asserting that it is able to conduct repairs on those cars. Another example of nominative fair use is use of a competitor’s trademark in comparative advertising. When Verizon advertises that it has better coverage than AT&T, it is making nominative fair use of AT&T’s mark because it is actually referring to AT&T’s services.",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 1675,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1767,
+   "completion_tokens": 234,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000405,
+  "latency_s": 9.51,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d15",
+  "split": "dev",
+  "answerable": true,
+  "question": "What are the two primary types of marks that can be registered with the USPTO?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "citations": [],
+  "abstain_reason": "citations invalid after one correction",
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "What are the two primary types of marks that can be registered with the USPTO?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 109.3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p147-c01",
+      "page": 147,
+      "score": 0.030886
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p157-c02",
+      "page": 157,
+      "score": 0.030415
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p148-c02",
+      "page": 148,
+      "score": 0.030159
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p147-c01",
+     "C-openstax-intro-ip-2021-p157-c02",
+     "C-openstax-intro-ip-2021-p148-c02"
+    ],
+    "elapsed_ms": 109.3
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p147-c01",
+     "C-openstax-intro-ip-2021-p148-c02"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p147-c01",
+     "C-openstax-intro-ip-2021-p148-c02"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p147-c01"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p147-c01"
+    ]
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p147-c01",
+    "page": 147,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Access multimedia content (http://openstax.org/books/introduction-intellectual-property/pages/4-4-the-four-types-of-trademarks) The term “trademark” is usually used to describe any of the four types of marks that can be registered with the U.S. Patent and Trademark Office. The two primary types of marks are trademarks and service marks. The two other marks—certification marks and collective marks—occur much less frequently and must meet different requirements for registration.x\n\nTrademarks\n\nTrademarks identify products—i.e., physical goods and commodities—that are either manufactured, produced, grown, or that exist naturally. A trademark is a word, name, symbol, or device—or combination of these—used to identify and distinguish the source of that product. Examples of trademarks include the Nike “Swoosh” symbol, the arched “M” for McDonalds, and the apple symbol with a small curved bite taken out of it for Apple Computer.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p157-c02",
+    "page": 157,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "As in the case with copyrights, trademarks do not necessarily have to be registered with the federal government, but doing so has benefits. The owners of unregistered trademarks have the exclusive right to use the mark concerning similar goods and services in the geographic area of actual use of the mark, the right to bring civil action against infringers, and protection against false advertising. Unregistered trademarks are usually identified by the “TM” symbol displayed on the product, package, or advertising used to promote them. Trademarks formally registered with the USPTO, however, receive additional benefits: • A legal presumption of ownership of the mark and exclusive right to use the mark nationwide on or in connection with the goods/services listed in the registration.\n\n• Public notice of claim of ownership of the mark.\n\n• The ability to bring an action concerning the mark in federal court.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p148-c02",
+    "page": 148,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "4.5 The Subject Matter of Trademarks\n\nLearning Objectives\n\nAfter completing this section, you will be able to\n\n• Learn the subject matter of trademarks.\n\n• Analyze characteristics of various forms of trademarks.\n\nAs discussed, there are four types of trademarks: trademarks, service marks, certification marks, and collective marks. But what does it mean to say that a trademark may be a “word [or phrase], name, symbol [or design], or device.” The answers may in some cases surprise you. xi United States Patent and Trademark Office. (2012, March 09). What Is a Collective Membership Mark?. Retrieved from http://www.uspto.gov/faq/trademarks.jsp#_Toc275426676 xii United States Patent and Trademark Office. (2012, March 09). Frequently Asked Questions About Trademarks. Retrieved from http://www.uspto.gov/faq/trademarks.jsp",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2672,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 2139,
+   "completion_tokens": 115,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.00039,
+  "latency_s": 4.19,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d16",
+  "split": "dev",
+  "answerable": true,
+  "question": "Is there an exception that lets a mark already used by someone else still be registered?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "citations": [],
+  "abstain_reason": "citations invalid after one correction",
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "Is there an exception that lets a mark already used by someone else still be registered?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 102.9,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p157-c02",
+      "page": 157,
+      "score": 0.032002
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p154-c02",
+      "page": 154,
+      "score": 0.031498
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p158-c03",
+      "page": 158,
+      "score": 0.030886
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p157-c02",
+     "C-openstax-intro-ip-2021-p154-c02",
+     "C-openstax-intro-ip-2021-p158-c03"
+    ],
+    "elapsed_ms": 102.9
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p154-c02"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p154-c02"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p154-c02"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p154-c02"
+    ]
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p157-c02",
+    "page": 157,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "As in the case with copyrights, trademarks do not necessarily have to be registered with the federal government, but doing so has benefits. The owners of unregistered trademarks have the exclusive right to use the mark concerning similar goods and services in the geographic area of actual use of the mark, the right to bring civil action against infringers, and protection against false advertising. Unregistered trademarks are usually identified by the “TM” symbol displayed on the product, package, or advertising used to promote them. Trademarks formally registered with the USPTO, however, receive additional benefits: • A legal presumption of ownership of the mark and exclusive right to use the mark nationwide on or in connection with the goods/services listed in the registration.\n\n• Public notice of claim of ownership of the mark.\n\n• The ability to bring an action concerning the mark in federal court.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p154-c02",
+    "page": 154,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "4.7 Bars to Trademark\n\nFigure 4.10 (credit: Amazon via Wikimedia Commons / Public Domain)\n\nLearning Objectives\n\nAfter completing this section, you will be able to\n\n• Identify the bars to trademark.\n\n• Dissect criteria for trademark registration.\n\nThe Prior Use Bar\n\nNo one can register a trademark if it has been used by other parties prior to its use by the applicant. Indeed, if the applicant uses such a mark, he or she may be liable for trademark infringement.xxviii The only exception to the prior use bar is when the mark has been used in an entirely different market or field of business, as in the trademark “Progressive” granted to two companies, one a backpack manufacturer and the other an auto insurance company.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p158-c03",
+    "page": 158,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "If the trademark is still in commercial use five years after registration, the owner is eligible to receive an additional protection known as “incontestability,” which immunizes the mark from many challenges, including challenges to validity, ownership, registration, and descriptiveness. (Incontestable marks can still be challenged on some grounds, such as genericism, functionality, and abandonment.) To receive incontestability status, a § 15 Declaration must be submitted to the USPTO.\n\nOnce incontestability is achieved, no one can contest the validity, ownership, or registration of the mark, nor can anyone contest the owner’s exclusive right to use the mark. An individual or a corporate entity can register a mark.\n\nA trademark can be assigned to others in the event of purchase or acquisition by another entity. The §15 Declaration must include:\n\nA. The registration number and the date of registration.",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2551,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 2027,
+   "completion_tokens": 182,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000413,
+  "latency_s": 4.83,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d17",
+  "split": "dev",
+  "answerable": true,
+  "question": "What two essential criteria must information meet to qualify as a trade secret?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "citations": [],
+  "abstain_reason": "citations invalid after one correction",
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "What two essential criteria must information meet to qualify as a trade secret?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 93.2,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p175-c01",
+      "page": 175,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p175-c03",
+      "page": 175,
+      "score": 0.031754
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p175-c02",
+      "page": 175,
+      "score": 0.031054
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p175-c01",
+     "C-openstax-intro-ip-2021-p175-c03",
+     "C-openstax-intro-ip-2021-p175-c02"
+    ],
+    "elapsed_ms": 93.2
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p175-c01",
+     "C-openstax-intro-ip-2021-p175-c03"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p175-c01",
+     "C-openstax-intro-ip-2021-p175-c03"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p175-c01",
+     "C-openstax-intro-ip-2021-p175-c02"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p175-c01",
+     "C-openstax-intro-ip-2021-p175-c02"
+    ]
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p175-c01",
+    "page": 175,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "5.3 Elements of a Trade Secret\n\nLearning Objectives\n\nAfter completing this section, you will be able to\n\n• Identify the key criteria used to qualify as a trade secret.\n\n• Explain how ideas can be protected as trade secrets.\n\nTo qualify as a trade secret, the information in question must meet two essential criteria. First, the information must attain its value from the fact that it is not generally known.\n\nSecond, the owner of that information must take reasonable efforts to maintain its secrecy. Absent these two elements, information does not qualify as a trade secret and is not entitled to trade secret protections that prevent or remedy misappropriation under the UTSA.v",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p175-c03",
+    "page": 175,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "The Value of Secrets\n\nFor information or knowledge in any of the above forms to be considered a trade secret, it must derive independent economic value because it is not generally known to, nor readily ascertainable by, other persons who can profit from its disclosure or use. Some examples of information courts have found to be trade secrets include computer software, sales information, customer information, and manufacturing formulas. However, merely because information is not known to the public does not necessarily make the information a trade secret. For example, information that is not generally known by the public but is known by different manufacturers in the same industry likely does not qualify as a trade secret.vii Material that is ascertainable through public sources generally does not derive independent economic value justifying trade secret protection.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p175-c02",
+    "page": 175,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Trade secrets are not limited to particular subject matters, although the knowledge or information to be protected need not take any particular form. A trade secret can be information or knowledge in the form of a formula, pattern, compilation, program, device, method, technique, or process. Although the UTSA defines what may be a trade secret, various courts interpreting the UTSA have come to different conclusions on what type of material should be considered a trade secret. For example, whereas courts have found that an insurer’s database is a trade secret under Wisconsin law, a similar database was found not to be a trade secret in Rhode Island.vi",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2214,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1854,
+   "completion_tokens": 164,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000376,
+  "latency_s": 5.02,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "d18",
+  "split": "dev",
+  "answerable": true,
+  "question": "What is the cap on punitive or exemplary damages relative to the damage award?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "citations": [],
+  "abstain_reason": "citations invalid after one correction",
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "What is the cap on punitive or exemplary damages relative to the damage award?",
+    "query_kind": "original",
+    "filter": {
+     "ip_type": "trade_secret"
+    },
+    "top_k": 3,
+    "latency_ms": 99.9,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p186-c02",
+      "page": 186,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p186-c03",
+      "page": 186,
+      "score": 0.032522
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p186-c00",
+      "page": 186,
+      "score": 0.031025
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p186-c02",
+     "C-openstax-intro-ip-2021-p186-c03",
+     "C-openstax-intro-ip-2021-p186-c00"
+    ],
+    "elapsed_ms": 99.9
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p186-c02",
+     "C-openstax-intro-ip-2021-p186-c03"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p186-c02",
+     "C-openstax-intro-ip-2021-p186-c03"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "citations": [
+     "C-openstax-intro-ip-2021-p186-c02",
+     "C-openstax-intro-ip-2021-p186-c03"
+    ],
+    "bad": [
+     "C-openstax-intro-ip-2021-p186-c02",
+     "C-openstax-intro-ip-2021-p186-c03"
+    ]
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p186-c02",
+    "page": 186,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Cal 2011), Mattel was found to have engaged in a prolonged practice of encouraging employees to use false pretenses to acquire competitive information from the defendant. As a result of this conduct, the jury awarded, and the court affirmed a verdict of $85 million dollars in exemplary damages. A punitive or exemplary award may not exceed twice the amount of the damage award.xl However, some states have modified this cap on punitive damages, and allow for punitive damages greater than two times the amount of actual damages.xli Case Studies\n\nCase Description of Damages\n\nSeagate Tech., LLC v.\n\nWestern Digital Corp.\n\n(https://www.openstax.org/ l/SeagateVWD)\n\nIn this case, the Minnesota Court of Appeals affirmed a judgment of $630 million in favor of the plaintiff stemming from a trade secret misappropriation. Under the UTSA, damages are measured by the actual loss caused by the misappropriation and any resulting unjust enrichment of the misappropriator.\n\nMattel, Inc. v. MGA Entm’t.\n\nInc.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p186-c03",
+    "page": 186,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "(https://www.openstax.org/ l/MattelVMGA)\n\nIn this case, Mattel was found to have encouraged employees to use false pretenses to acquire competitive information from the defendant. As a result of this conduct, $85 million dollars in exemplary damages was awarded. A punitive or exemplary award may not exceed twice the amount of the damage award.xlii However, some states have modified this cap.xliii",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p186-c00",
+    "page": 186,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Damages Awarded\n\nDamages are often awarded in addition to an injunction and are not an exclusive remedy. xxxviii For example, in",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 1526,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1754,
+   "completion_tokens": 172,
+   "llm_calls": 2
+  },
+  "cost_usd": 0.000366,
+  "latency_s": 5.43,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "u01",
+  "split": "dev",
+  "answerable": false,
+  "question": "How long does a patent last in Vietnam, and which office grants it?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "abstain_reason": "The passages do not contain specific information about the duration of patents in Vietnam or the office that grants them.",
+  "citations": [],
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "How long does a patent last in Vietnam, and which office grants it?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 90.7,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p096-c02",
+      "page": 96,
+      "score": 0.029514
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p059-c03",
+      "page": 59,
+      "score": 0.029031
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p018-c01",
+      "page": 18,
+      "score": 0.016393
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p096-c02",
+     "C-openstax-intro-ip-2021-p059-c03",
+     "C-openstax-intro-ip-2021-p018-c01"
+    ],
+    "elapsed_ms": 90.7
+   },
+   {
+    "event": "abstain",
+    "reason": "The passages do not contain specific information about the duration of patents in Vietnam or the office that grants them."
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p096-c02",
+    "page": 96,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "The importance of patents to America’s economic prosperity and competitiveness ensures that competing interests will continue to strive for an advantage commercially, legislatively, and judicially. Change will continue after the publication of this chapter. The status quo does not last long in our field. lxxix http://mcsmith.blogs.com/eastern_district_of_texas/2014/02/eastern-district-of-texas-resumescase-tracking-with-track-b-for-patent-cases.html. lxxx http://www.conversantip.com/blog/states-stepup-fight-against-patent-trolls/. lxxxi http://www.conversantip.com/blog/usadministration-takes-smart-steps-to-strengthenthe-patent-system/. lxxxii http://www.conversantip.com/news-article/iam-guidelines-for-ethical-patent-licensingprovide-basis-for-new-approach-to-thetroll-debate/ and http://finance.yahoo.com/news/finjan-holdings-commits-licensingbest-130000509.html",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p059-c03",
+    "page": 59,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "These fees are due 3 years and 6 months, 7 years and 6 months, and 11 years and 6 months from the date of the original patent grant. Plant and design patents are also required to pay maintenance fees.lv li United States Patent and Trademark Office. (2010, July 21). Manual of Patent Examining Procedure § 1.121. Retrieved from http://www.uspto.gov/web/offices/pac/mpep/documents/appxr_1_121.htm lii United States Patent and Trademark Office. (2010, July 21). Manual of Patent Examining Procedure §.0 Retrieved from http://www.uspto.gov/web/offices/pac/mpep/documents/0700_706_07.htm#sect706.07 liii 37 CFR Part 41. Department of Commerce, United States Patent and Trademark Office. (2008). Rules of practice before the board of patent appeals and interferences in ex parte appeals. Retrieved from website: http://www.gpo.gov/fdsys/pkg/FR-2008-06-10/pdf/ E8-12451.pdf liv 37 CFR § 1.134 lv 37 CFR § 1.362",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p018-c01",
+    "page": 18,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "A patent is an intellectual property right granted by the government of a nation to an inventor that gives them the exclusive right to the invention for up to 20 years, in exchange for disclosing the details of the new technology to society for its ultimate benefit.",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2040,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 967,
+   "completion_tokens": 35,
+   "llm_calls": 1
+  },
+  "cost_usd": 0.000166,
+  "latency_s": 1.8,
+  "context_has_evidence": null
+ },
+ {
+  "query_id": "u02",
+  "split": "dev",
+  "answerable": false,
+  "question": "What fee does WIPO charge for an international trademark application under the Madrid Protocol?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "abstain_reason": "The passages do not contain information about the fees charged by WIPO for an international trademark application under the Madrid Protocol.",
+  "citations": [],
+  "config": {
+   "name": "hybrid",
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[hybrid]",
+    "query": "What fee does WIPO charge for an international trademark application under the Madrid Protocol?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 107.6,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p158-c04",
+      "page": 158,
+      "score": 0.031754
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p158-c01",
+      "page": 158,
+      "score": 0.031099
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p172-c01",
+      "page": 172,
+      "score": 0.027984
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p158-c04",
+     "C-openstax-intro-ip-2021-p158-c01",
+     "C-openstax-intro-ip-2021-p172-c01"
+    ],
+    "elapsed_ms": 107.6
+   },
+   {
+    "event": "abstain",
+    "reason": "The passages do not contain information about the fees charged by WIPO for an international trademark application under the Madrid Protocol."
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p158-c04",
+    "page": 158,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "B. The fee for each class of goods/services in the registration to which the Declaration pertains. C. A statement that declares: -The mark has been in continuous use in commerce for a period of five years and is still in use in commerce -No final decision exists adverse to the owner’s claim of ownership of the mark for the goods/services, or to the owner’s right to register the mark or to keep the same on the register -No pending proceeding exists involving the claimed rights in the USPTO or in the courts D. A signed and dated affidavit or declaration under 37 C.F.R. §2.20xxxvii xxxvi Protecting Your Trademark: Basic Facts About Trademarks, U.S. Patent and Trademark Office, derived from: http://www.uspto.gov/trademarks/basics/BasicFacts.pdf xxxvii United States Patent and Trademark Office. (21 August, 2012). Maintain/Renew a Registration: How to Keep a Registration",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p158-c01",
+    "page": 158,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "In order for your trademark to be eligible for registration with the USPTO, however, you must actually use it in conjunction with commercial activity—i.e., with the marketing and sale of products and services—or be about to use it within six months. Absent the selling of athletic shoes and other sports attire, Nike’s $20 billion “Swoosh” logo would be nothing more than a worthless doodle.\n\nWhen applying for trademark registration, the applicant must file an affidavit attesting to the date the mark was first used in commerce as well as a specimen showing how the mark was first used, whether in advertising or on the product in a store setting. It is imperative that the applicant identify the earliest provable date of first use in commerce, to lessen the likelihood that another party can claim prior use of that mark and invalidate the trademark.\n\nThe USPTO also offers an “intent-to-use” application, which allows an entity to apply for a trademark that is not yet used in commerce.",
+    "truncated": false,
+    "via": "hybrid"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p172-c01",
+    "page": 172,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Trade secret law is a source of protection for intellectual property that serves as an alternative to patent or trademark law. Whereas patent and trademark law require that the intellectual property to be protected be publicly “disclosed” (for example, through a patent application), trade secret law requires precisely the opposite—that is, that the intellectual property to be protected not be publicly disclosed. The subject matter of a trade secret may be virtually any information that is of value as a result of not being generally known. There is enormous economic value in trade secrets—for companies and countries. A study released in March of 2014 estimated that trade secret misappropriation costs the world’s top 40 economies between 1 percent and 3 percent of their gross domestic product each year. i",
+    "truncated": false,
+    "via": "hybrid"
+   }
+  ],
+  "context_chars": 2682,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 991,
+   "completion_tokens": 37,
+   "llm_calls": 1
+  },
+  "cost_usd": 0.000171,
+  "latency_s": 1.61,
+  "context_has_evidence": null
+ }
+]

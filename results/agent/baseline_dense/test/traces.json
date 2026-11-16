@@ -1,0 +1,809 @@
+[
+ {
+  "query_id": "t01",
+  "split": "test",
+  "answerable": true,
+  "question": "Can an author use a Creative Commons license to restrict other people's fair use of the work?",
+  "status": "answered",
+  "answer": "An author cannot use a Creative Commons license to restrict other people's fair use of the work, as these licenses do not allow authors to limit any of the rights otherwise available under copyright law, including fair use [C-openstax-intro-ip-2021-p132-c01].",
+  "citations": [
+   "C-openstax-intro-ip-2021-p132-c01"
+  ],
+  "config": {
+   "name": "baseline_dense",
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6,
+   "retry_before_abstain": false
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[dense]",
+    "query": "Can an author use a Creative Commons license to restrict other people's fair use of the work?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 179.6,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p132-c01",
+      "page": 132,
+      "score": 0.862039
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p133-c00",
+      "page": 133,
+      "score": 0.847479
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p104-c00",
+      "page": 104,
+      "score": 0.844073
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p132-c01",
+     "C-openstax-intro-ip-2021-p133-c00",
+     "C-openstax-intro-ip-2021-p104-c00"
+    ],
+    "elapsed_ms": 179.7
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p132-c01",
+    "page": 132,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Creative Commons\n\nThe development of the Creative Commons represents a voluntary private sector alternative to traditional copyright that coordinates the creation and consumption of content among a wide variety of individuals and institutions—all without a hint of government intervention. In doing so, Creative Commons captures a whole section of the market for which broad dissemination of content and not financial gain is key, which is something that could not be done as effectively by either traditional copyright or the public domain. The Creative Commons License is currently available in six flavors:\n\nAll of these licenses require the work to be copyrighted because the Creative Commons license is based on copyright. Although Creative Commons licenses can provide authors with added opportunities to have their work distributed and used, these licenses do not allow authors to limit any of the rights otherwise available under copyright law, such as fair use.",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p133-c00",
+    "page": 133,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Creative Commons licenses also cannot be revoked, which means that if copies of your work are distributed under a Creative Commons license, they will always be distributed that way. If, for example, you distribute your amazing new video under a Creative Commons license and it generates five million page views on YouTube—and then 20th Century Fox offers you a seven-figure deal for exclusive rights to distribute your video—you will not be able to prevent everyone on the planet from continuing to distribute your video for free on the Internet.",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p104-c00",
+    "page": 104,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "The Rights of Authors and the Public Interest\n\nWhen it came to copyright, however, the rights of authors were thought to conflict with those of the public to a far greater extent. “Democratic values emphasized equal and widespread access to learning and the importance of information flows for maintaining political freedom, whereas strong copyrights impinged on the fullest attainment of these objectives,” notes Bowdoin College historian Zorina Khan, author of The Democratization of Invention: Patents and Copyright in American Economic Development, which won the Alice Hanson Jones prize for outstanding work in economic history in 2005.ii\n\nAs an example, a copyright owner’s right to prevent unauthorized use of their work may at times be constrained by the public’s First Amendment right of free speech—hence the doctrine of “fair use” (more on this later).",
+    "truncated": false,
+    "via": "dense"
+   }
+  ],
+  "context_chars": 2379,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 951,
+   "completion_tokens": 87,
+   "llm_calls": 1
+  },
+  "cost_usd": 0.000195,
+  "latency_s": 2.42,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "t02",
+  "split": "test",
+  "answerable": true,
+  "question": "Why do owners almost always insist on an injunction rather than relying on money damages when infringed?",
+  "status": "answered",
+  "answer": "Owners almost always insist on an injunction rather than relying on money damages because the biggest loss to the owner from trademark infringement is not necessarily revenue, but the potential damage to the reputation of the brand in the minds of consumers [C-openstax-intro-ip-2021-p162-c01]. Injunctive relief is preferred as it prohibits continued sales and helps protect the brand's reputation [C-openstax-intro-ip-2021-p162-c01].",
+  "citations": [
+   "C-openstax-intro-ip-2021-p162-c01"
+  ],
+  "config": {
+   "name": "baseline_dense",
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6,
+   "retry_before_abstain": false
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[dense]",
+    "query": "Why do owners almost always insist on an injunction rather than relying on money damages when infringed?",
+    "query_kind": "original",
+    "filter": {
+     "ip_type": "trademark"
+    },
+    "top_k": 3,
+    "latency_ms": 127.6,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p162-c01",
+      "page": 162,
+      "score": 0.855719
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p162-c04",
+      "page": 162,
+      "score": 0.839008
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p162-c03",
+      "page": 162,
+      "score": 0.8381
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p162-c01",
+     "C-openstax-intro-ip-2021-p162-c04",
+     "C-openstax-intro-ip-2021-p162-c03"
+    ],
+    "elapsed_ms": 127.7
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p162-c01",
+    "page": 162,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Remedies for trademark infringement are similar to those available to owners of other intellectual property, including the possibility of receiving monetary damages for lost profits and injunctive relief. But even more so than is the case with patent and copyright owners, trademark owners almost invariably insist on injunctive (e.g. prohibiting continued sales) to cure the infringement. That’s because when a trademark is infringed, the biggest loss to the owner is not necessarily revenue but the potential damage to the reputation of the brand in the minds of consumers.",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p162-c04",
+    "page": 162,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "• Punitive damages to punish the infringer (available in state courts only)\n\n• Reasonable attorneys’ fees incurred by the mark owner to prosecute the case. xlv See William R. Warner & Co. v. Eli Lilly & Co., 265 U.S. 526 (1924) Retrieved from http://caselaw.lp.findlaw.com/scripts/ getcase.pl?court=us&vol=265&invol=526.",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p162-c03",
+    "page": 162,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Incidentally, in cases where the products being imported are not patented or copyrighted, the courts may only require the importer to stop use of the mark, but allow for the continued importation of the product.xlv In addition to injunctive relief, monetary damages may also be awarded in trademark infringement cases. Monetary damages are primarily aimed at compensating trademark owners for lost profits due to the infringing activity, and may be trebled if the infringement is deemed intentional. The courts may base an award on any or all of the following measures:\n\n• The defendant’s profits, either as an indicator of the plaintiff’s loss or under an unjust enrichment theory. • Actual business damages and losses suffered by the mark owner as a result of the infringement, including lost profits and the cost of notifying customers.",
+    "truncated": false,
+    "via": "dense"
+   }
+  ],
+  "context_chars": 1734,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 893,
+   "completion_tokens": 124,
+   "llm_calls": 1
+  },
+  "cost_usd": 0.000208,
+  "latency_s": 3.07,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "t03",
+  "split": "test",
+  "answerable": true,
+  "question": "How do courts decide how long an injunction should last?",
+  "status": "answered",
+  "answer": "Courts decide the duration of an injunction based on the time required for independent development of the misappropriated information or knowledge, often relying on expert opinions and competitor experiences [C-openstax-intro-ip-2021-p185-c01]. Additionally, injunctions may be tailored to restrict employment in specific areas rather than imposing outright bans, with the duration being limited accordingly [C-openstax-intro-ip-2021-p185-c02]. Furthermore, under the UTSA, an injunction may continue for a reasonable period to eliminate any commercial advantage from the misappropriation, even if the information is no longer a trade secret [C-openstax-intro-ip-2021-p184-c02].",
+  "citations": [
+   "C-openstax-intro-ip-2021-p185-c01",
+   "C-openstax-intro-ip-2021-p185-c02",
+   "C-openstax-intro-ip-2021-p184-c02"
+  ],
+  "config": {
+   "name": "baseline_dense",
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6,
+   "retry_before_abstain": false
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[dense]",
+    "query": "How do courts decide how long an injunction should last?",
+    "query_kind": "original",
+    "filter": {
+     "ip_type": "trade_secret"
+    },
+    "top_k": 3,
+    "latency_ms": 106.7,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p185-c01",
+      "page": 185,
+      "score": 0.863044
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p185-c02",
+      "page": 185,
+      "score": 0.851761
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p184-c02",
+      "page": 184,
+      "score": 0.848819
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p185-c01",
+     "C-openstax-intro-ip-2021-p185-c02",
+     "C-openstax-intro-ip-2021-p184-c02"
+    ],
+    "elapsed_ms": 106.8
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p185-c01",
+    "page": 185,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Table 5.2 Injunctive Relief\n\nWhere the information has not been publicly disclosed, the issue becomes more difficult. The duration of the injunction is often calculated according to the time that would be required for independent development of the information or knowledge that was misappropriated. These “head start” injunctions assume that the information could be properly obtained through reverse engineering or independent development.xxxii To determine what length of time is appropriate, courts may rely on the opinions of experts and the experience of other competitors.xxxiii However, a court may also opt to impose a permanent injunction that can later be modified, or in some circumstance rely on other considerations deemed important by the court.xxxiv",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p185-c02",
+    "page": 185,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Courts also exhibit broad flexibility in the nature and duration of relief in cases dealing with former employees. When an injunction is issued in these cases, it usually will not be an outright ban on employment. Rather, it will be a more limited injunction for a more limited duration.xxxv Most courts are willing to allow continued employment, but will restrict the employee from working with a particular product line or area of the new employer’s business.xxxvi However, if the role the employee will assume would inevitably lead to the disclosure of trade secrets, the employment may be prohibited altogether. xxxvii xxxii See, e.g., Surgidev Corp. v. Eye Technology, Inc., 828 F.2d 452, 456-457 (8th Cir. 1987) (affirming 15-month injunction based on the period of time that would be required for independent development of the protected information). xxxiii See, Restatement (Third) of Unfair Competition Section 44, comment f. xxxiv See e.g., General Electric Co. v. Sung, 843 F.",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p184-c02",
+    "page": 184,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "The UTSA provides that an injunction shall terminate once the trade secret ceases to exist, but may be continued for a reasonable period of time to extinguish any commercial advantage that otherwise would be derived from the misappropriation. This is especially important where, at the time of the action, the information or knowledge is no longer a trade secret. In such a case, the court may still award the owner injunctive relief that is narrowly crafted to deprive the defendant of the benefit of time saved by improper use of the owner’s trade secret.xxxi xxviii See Unif. Trade Secrets Act §§ 2-5, U.L.A (1985). xxix Standard Brands, Inc. v. Zumpe, 264 F. Supp. 254, 269 (E.D. La. 1967). xxx See 3M v. Pribyl, 259 F.3d 587, 598 (7th Cir 2001) (upholding broad injunction on use of material in employee handbook, as overly specific injunctions may invite evasion). xxxi See Cherne Indus., Inc. v. Grounds & Associates, 278 N.W.2d 81 (Minn. 1979).",
+    "truncated": false,
+    "via": "dense"
+   }
+  ],
+  "context_chars": 2705,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1148,
+   "completion_tokens": 204,
+   "llm_calls": 1
+  },
+  "cost_usd": 0.000295,
+  "latency_s": 4.44,
+  "context_has_evidence": false
+ },
+ {
+  "query_id": "t04",
+  "split": "test",
+  "answerable": true,
+  "question": "Can a descriptive term ever become eligible for trademark registration?",
+  "status": "answered",
+  "answer": "A descriptive term can become eligible for trademark registration if it develops a secondary meaning in the public's mind through usage. For example, terms like \"Sharp\" for televisions or \"Windows\" for software can qualify once they are associated with a specific source by consumers [C-openstax-intro-ip-2021-p153-c03]. This secondary meaning must be established over time through evidence such as sales and advertising [C-openstax-intro-ip-2021-p152-c04].",
+  "citations": [
+   "C-openstax-intro-ip-2021-p153-c03",
+   "C-openstax-intro-ip-2021-p152-c04"
+  ],
+  "config": {
+   "name": "baseline_dense",
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6,
+   "retry_before_abstain": false
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[dense]",
+    "query": "Can a descriptive term ever become eligible for trademark registration?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 116.5,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p153-c03",
+      "page": 153,
+      "score": 0.897775
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p149-c00",
+      "page": 149,
+      "score": 0.865569
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p152-c04",
+      "page": 152,
+      "score": 0.858155
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p153-c03",
+     "C-openstax-intro-ip-2021-p149-c00",
+     "C-openstax-intro-ip-2021-p152-c04"
+    ],
+    "elapsed_ms": 116.5
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p153-c03",
+    "page": 153,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "A descriptive mark explicitly describes the purpose, nature, or an attribute of a product or service and is, therefore, not eligible for trademark registration unless a secondary meaning or association has been developed in the public’s mind through usage.xxvii Ineligible descriptive marks include “Lightweight” and “Faster.” However, if a descriptive mark takes on a secondary meaning in the public mind—“Sharp” televisions, for example, or “Windows” for windowing software—then it can be eligible for trademark registration. The bar against descriptive marks is designed to protect for public use common concepts and language that everyone needs to use. Imagine having to pay the coiner of the term “reverse mortgage” every time you wanted to describe such a financial arrangement. It would create a nightmare of social costs, which can be prevented simply by allowing the descriptive term to remain in the public domain.",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p149-c00",
+    "page": 149,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Words, Phrases, and Names\n\nThere is little confusion about what is meant by a trademarkable word, phrase, or name. The only point to remember here is that words, names, and phrases that are simply descriptive of the goods or services with which they are associated do not necessarily qualify for registration as a trademark.xiii They must be distinctive and indicate the origin of a product or service. What is meant by distinctive—and how distinctive they must be—will be discussed in the next section.",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p152-c04",
+    "page": 152,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "But other marks gain distinctiveness as a result of marketing, eventually forming a powerful association over time in the minds of consumers. As an example, the term “Raisin Bran” is merely descriptive of the foods used in the cereal and would not be eligible for trademark registration had Kellogg Company not demonstrated through evidence of use (including sales, advertising expenditures, and consumer surveys) that the buying public had come to distinctively associate Raisin Bran with this particular Kellogg’s cereal. The public’s distinct association of a trademark to a company is known as secondary meaning, and that is something that can only be established over time. An understanding of secondary meaning is crucial when discussing the spectrum of distinctiveness. xxii 932 F.2d 1113, 1117 (CA5 1991), derived from: http://caselaw.lp.findlaw.com/scripts/getcase.pl?court=us&vol=505&invol=763 xxiii Op. cit., Miller and Davis.",
+    "truncated": false,
+    "via": "dense"
+   }
+  ],
+  "context_chars": 2364,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 992,
+   "completion_tokens": 144,
+   "llm_calls": 1
+  },
+  "cost_usd": 0.000235,
+  "latency_s": 2.85,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "t05",
+  "split": "test",
+  "answerable": true,
+  "question": "Can a product still infringe a patent claim if it does not literally match every element of the claim?",
+  "status": "answered",
+  "answer": "Yes, a product can still infringe a patent claim even if it does not literally match every element of the claim. This is possible under the doctrine of equivalents, which allows for infringement if the accused device performs substantially the same function in substantially the same way and yields substantially the same result, despite some differences between the claim elements and the accused device being not substantial [C-openstax-intro-ip-2021-p067-c01].",
+  "citations": [
+   "C-openstax-intro-ip-2021-p067-c01"
+  ],
+  "config": {
+   "name": "baseline_dense",
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6,
+   "retry_before_abstain": false
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[dense]",
+    "query": "Can a product still infringe a patent claim if it does not literally match every element of the claim?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 108.7,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p067-c01",
+      "page": 67,
+      "score": 0.862075
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p067-c00",
+      "page": 67,
+      "score": 0.85969
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p058-c02",
+      "page": 58,
+      "score": 0.855238
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p067-c01",
+     "C-openstax-intro-ip-2021-p067-c00",
+     "C-openstax-intro-ip-2021-p058-c02"
+    ],
+    "elapsed_ms": 108.8
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p067-c01",
+    "page": 67,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Figure 2.3 Patent for velvet type fabric and method of producing same (credit: USPTO doc ID 02717437 / ) Even if some elements of a claim do not literally read on the infringing device, but are sufficiently equivalent in what the device does and how the device does it, they may nevertheless be infringed under the legal rule called the “doctrine of equivalents.”This doctrine prevents an infringer from copying the essence of the invention, but making insignificant modifications in an effort to avoid infringement. If the accused device or process performs substantially the same function in substantially the same way and yields substantially the same result, infringement exists so long as any differences between the claim elements and the accused device are not substantial. A patent calling for an “adhesive” connection (describing glue as the preferred adhesive) could be infringed by a device using a hook-and-loop fastener(e.g.,Velcro).",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p067-c00",
+    "page": 67,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Infringement is a strict liability violation—you do not need to know that you are infringing a patent, or that a patent even exists, to be liable for patent infringement. If someone makes, uses, offers for sale, sells, or imports what is covered by a claim of a valid patent, that person is an infringer. Neither lack of knowledge of the patent, nor lack of intent to infringe it, is a defense to patent infringement. ii Enforcing a patent is almost invariably a long and expensive process. The first step is to decide whether someone is infringing your patent—i.e., making, using, selling, offering to sell, or importing your invention without your permission. To decide whether someone is infringing your patent, the elements of each claim of the patent must be compared with the elements of the potential infringer’s device or process. If the elements of a patent claim match (or “read on”) the elements of the device or process, an infringement has occurred.",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p058-c02",
+    "page": 58,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Some applicants make the opposite mistake and draft claims that are too narrow—“a programmable multifunction computer in the shape of a metal clamshell,” for example. Such a claim is of little value because others can easily design around it simply by using plastic or other nonmetal materials in the design. Some claims are so narrow they are even referred to as “picture claims” because they paint a literal and limiting picture of the invention. You may get a patent with such picture claims, but it probably won’t be worth the paper it’s printed on.\n\nThe strongest claims usually define powerful functionality. They capture something fundamental or seminal in the functioning of the invention.",
+    "truncated": false,
+    "via": "dense"
+   }
+  ],
+  "context_chars": 2605,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1054,
+   "completion_tokens": 119,
+   "llm_calls": 1
+  },
+  "cost_usd": 0.000229,
+  "latency_s": 3.16,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "t06",
+  "split": "test",
+  "answerable": true,
+  "question": "Under the classroom photocopying brevity test, how many words of a poem may be copied?",
+  "status": "answered",
+  "answer": "Under the classroom photocopying brevity test, no more than 250 words of a poem may be copied [C-openstax-intro-ip-2021-p122-c05].",
+  "citations": [
+   "C-openstax-intro-ip-2021-p122-c05"
+  ],
+  "config": {
+   "name": "baseline_dense",
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6,
+   "retry_before_abstain": false
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[dense]",
+    "query": "Under the classroom photocopying brevity test, how many words of a poem may be copied?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 98.0,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p122-c05",
+      "page": 122,
+      "score": 0.892705
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p122-c04",
+      "page": 122,
+      "score": 0.820275
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p119-c03",
+      "page": 119,
+      "score": 0.790738
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p122-c05",
+     "C-openstax-intro-ip-2021-p122-c04",
+     "C-openstax-intro-ip-2021-p119-c03"
+    ],
+    "elapsed_ms": 98.0
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p122-c05",
+    "page": 122,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "But even in the above academic uses, limitations apply regarding the size of both the audience and the content to be copied. For example, teachers may photocopy works only for students enrolled in the class. The photocopied material must also pass brevity, spontaneity, and other tests. “Brevity” means no more than 250 words of a poem, 2,500 words of a prose work, or 10 percent or 1,000 words of an excerpt of a prose work may be used. In addition, the decision to photocopy the material must be spontaneous; the photocopied material must be used only for one course and one class term; no more than one poem, article, story, or essay—and no more than two excerpts—may be copied from the same author; and such bulk photocopying must be limited to nine instances per class during one term. xxxii xxx 17 U.S.C. § 108 Retrieved from http://www.law.cornell.edu/uscode/text/17/108. xxxi Library of Congress. (2009, November). Reproduction of Copyrighted Works By Educators And Librarians.",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p122-c04",
+    "page": 122,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Academic institutions also are protected by specific rules regarding fair use, pursuant to an agreement between representatives of the publishing industry and of academic institutions negotiated in the 1970s. The photocopying of a copyrighted work for the classroom is permitted if it is limited to: • A chapter from a book\n\n• An article from a periodical or newspaper\n\n• A short story, short essay, or short poem, whether or not from a collective work • A chart, graph, diagram, drawing, cartoon, or picture from a book, periodical, or newspaper. xxxi",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p119-c03",
+    "page": 119,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Copyright Infringement in the Music Industry\n\nTake Kanye West, for example. He was recently sued for sampling Sly Johnson’s song “Different Strokes” and using it in a new song called “The Joy” on Kanye’s and Jay-Z’s Watch the Throne Album. The case was settled out of court for an undisclosed amount.\n\nThe second type of similarity—called comprehensive nonliteral similarity—involves the borrowing of patterns without necessarily borrowing specific elements. In the case of a novel, for example, one author might infringe by copying the plot of another novel, even though he used different words to describe the action taking place. Similarly, a composer of a song might write lyrics and music that closely borrowed patterns from another song, even though he did not use the exact same words and notes.",
+    "truncated": false,
+    "via": "dense"
+   }
+  ],
+  "context_chars": 2339,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1045,
+   "completion_tokens": 69,
+   "llm_calls": 1
+  },
+  "cost_usd": 0.000198,
+  "latency_s": 1.75,
+  "context_has_evidence": true
+ },
+ {
+  "query_id": "u03",
+  "split": "test",
+  "answerable": false,
+  "question": "Can a work created entirely by artificial intelligence, with no human author, be registered for copyright?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "abstain_reason": "The passages do not specifically address whether a work created entirely by artificial intelligence, with no human author, can be registered for copyright.",
+  "citations": [],
+  "config": {
+   "name": "baseline_dense",
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6,
+   "retry_before_abstain": false
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[dense]",
+    "query": "Can a work created entirely by artificial intelligence, with no human author, be registered for copyright?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 96.1,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p103-c00",
+      "page": 103,
+      "score": 0.845641
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p118-c01",
+      "page": 118,
+      "score": 0.843813
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p115-c03",
+      "page": 115,
+      "score": 0.840095
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p103-c00",
+     "C-openstax-intro-ip-2021-p118-c01",
+     "C-openstax-intro-ip-2021-p115-c03"
+    ],
+    "elapsed_ms": 96.1
+   },
+   {
+    "event": "abstain",
+    "reason": "The passages do not specifically address whether a work created entirely by artificial intelligence, with no human author, can be registered for copyright."
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p103-c00",
+    "page": 103,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "How to Obtain a Copyright\n\nIn America, the copyright system is administered by the U.S. Copyright Office, which is part of the Library of Congress and maintains a registry of copyrighted works. Interestingly, registration is not required to obtain a copyright. It is automatically granted to an author at the moment of creation—i.e., as soon as the work is expressed in a tangible form that allows it to be seen or copied, such as being written on paper or on a computer, or recorded as video or audio. Registration is only required if a copyright holder wants to initiate a copyright infringement suit in federal court.",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p118-c01",
+    "page": 118,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "Both of these rights, however, have limitations. Under U.S. law, because moral rights are personal, they exist only for the life of the author. Only the author can enforce those rights; they cannot be transferred by the author to heirs or anyone else.\n\nAs noted at the beginning of this chapter, registration is not required in order to enjoy copyright protection. Once an author puts words to paper, paint to canvas, or software code into a digital file, it is immediately protected by copyright and nothing more is required.",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p115-c03",
+    "page": 115,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "To be copyrightable, a creative work must not only be expressed in a tangible form that allows it to be seen or copied (i.e., put to paper or some other medium), but it must also be original. The requirement for originality in copyright has its parallel in the necessity for novelty in patents. But this parallel works only to a point, for a copyrighted work need not be novel in the strictest sense to be original.\n\nAs Arthur R. Miller and Michael H. Davis explain in their textbook on intellectual property for law students: “The author’s ideas and themes may have appeared in earlier works, Indeed, much of the expression may have been produced before. But copyright will be available to [this] second author if his is a work of independent creation.”xiii\n\nTo reiterate, a copyrightable work must not only fit under one of the eight broad categories of eligible subject matter, but it must also be:\n\n• Independently created.\n\n• Expressed or fixed on a tangible medium that can be seen or copied.",
+    "truncated": false,
+    "via": "dense"
+   }
+  ],
+  "context_chars": 2144,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 956,
+   "completion_tokens": 40,
+   "llm_calls": 1
+  },
+  "cost_usd": 0.000167,
+  "latency_s": 1.59,
+  "context_has_evidence": null
+ },
+ {
+  "query_id": "u04",
+  "split": "test",
+  "answerable": false,
+  "question": "Under the UDRP, how can a trademark owner recover a domain name from a cybersquatter?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+  "abstain_reason": "The passages do not contain specific information about the UDRP process for recovering domain names from cybersquatters.",
+  "citations": [],
+  "config": {
+   "name": "baseline_dense",
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "budget_chars": 4000,
+   "neighbors": false,
+   "use_filter": true,
+   "max_turns": 6,
+   "retry_before_abstain": false
+  },
+  "model": "gpt-4o-mini",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search[dense]",
+    "query": "Under the UDRP, how can a trademark owner recover a domain name from a cybersquatter?",
+    "query_kind": "original",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 104.6,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-openstax-intro-ip-2021-p158-c03",
+      "page": 158,
+      "score": 0.824153
+     },
+     {
+      "rank": 2,
+      "id": "C-openstax-intro-ip-2021-p157-c02",
+      "page": 157,
+      "score": 0.816493
+     },
+     {
+      "rank": 3,
+      "id": "C-openstax-intro-ip-2021-p157-c03",
+      "page": 157,
+      "score": 0.814603
+     }
+    ],
+    "added_to_context": [
+     "C-openstax-intro-ip-2021-p158-c03",
+     "C-openstax-intro-ip-2021-p157-c02",
+     "C-openstax-intro-ip-2021-p157-c03"
+    ],
+    "elapsed_ms": 104.6
+   },
+   {
+    "event": "abstain",
+    "reason": "The passages do not contain specific information about the UDRP process for recovering domain names from cybersquatters."
+   }
+  ],
+  "n_searches": 1,
+  "final_context": [
+   {
+    "id": "C-openstax-intro-ip-2021-p158-c03",
+    "page": 158,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "If the trademark is still in commercial use five years after registration, the owner is eligible to receive an additional protection known as “incontestability,” which immunizes the mark from many challenges, including challenges to validity, ownership, registration, and descriptiveness. (Incontestable marks can still be challenged on some grounds, such as genericism, functionality, and abandonment.) To receive incontestability status, a § 15 Declaration must be submitted to the USPTO.\n\nOnce incontestability is achieved, no one can contest the validity, ownership, or registration of the mark, nor can anyone contest the owner’s exclusive right to use the mark. An individual or a corporate entity can register a mark.\n\nA trademark can be assigned to others in the event of purchase or acquisition by another entity. The §15 Declaration must include:\n\nA. The registration number and the date of registration.",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p157-c02",
+    "page": 157,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "As in the case with copyrights, trademarks do not necessarily have to be registered with the federal government, but doing so has benefits. The owners of unregistered trademarks have the exclusive right to use the mark concerning similar goods and services in the geographic area of actual use of the mark, the right to bring civil action against infringers, and protection against false advertising. Unregistered trademarks are usually identified by the “TM” symbol displayed on the product, package, or advertising used to promote them. Trademarks formally registered with the USPTO, however, receive additional benefits: • A legal presumption of ownership of the mark and exclusive right to use the mark nationwide on or in connection with the goods/services listed in the registration.\n\n• Public notice of claim of ownership of the mark.\n\n• The ability to bring an action concerning the mark in federal court.",
+    "truncated": false,
+    "via": "dense"
+   },
+   {
+    "id": "C-openstax-intro-ip-2021-p157-c03",
+    "page": 157,
+    "source_id": "openstax-intro-ip-2021",
+    "text": "• The use of the U.S. registration as a basis to obtain registration in foreign countries. • The ability to record the U.S. registration with the U.S. Customs and Border Protection (CBP) Service to prevent importation of infringing foreign goods.\n\n• The right to use the federal registration symbol ®\n\n• Listing in the United States Patent and Trademark Office’s online databases.xxxv Because registration costs money, many small businesses choose to rely upon the common law protections afforded trademarks, especially when just starting up. A case in point was Google, which used an unregistered trademark for its first six years in operation. Only in 2006 did the company formally apply for a registered trademark for “Google.” It was registered in 2012.",
+    "truncated": false,
+    "via": "dense"
+   }
+  ],
+  "context_chars": 2584,
+  "dropped_for_budget": [],
+  "usage": {
+   "prompt_tokens": 1026,
+   "completion_tokens": 36,
+   "llm_calls": 1
+  },
+  "cost_usd": 0.000176,
+  "latency_s": 1.45,
+  "context_has_evidence": null
+ }
+]

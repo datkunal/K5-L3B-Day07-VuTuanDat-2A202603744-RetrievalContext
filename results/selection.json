@@ -1,0 +1,18 @@
+{
+  "decided_at": "2026-11-16, after all dev runs and dev labels, before any Day 7 test run",
+  "test_runs_before_this_decision": 0,
+  "rule": "highest dev Context Evidence Rate; tie -> higher dev mean grounded-answer grade; tie -> more correct abstentions; tie -> lower cost, then latency (fixed in data/benchmark/questions.json meta before the first agent run)",
+  "dev": {
+    "baseline_dense": {"CER": "17/18", "grade_mean": 1.889, "abstain_ok": "2/2", "cost_usd_20q": 0.00400, "latency_s_median": 2.56},
+    "bm25":           {"CER": "16/18", "grade_mean": null, "abstain_ok": "2/2", "cost_usd_20q": 0.00398, "latency_s_median": 2.40},
+    "hybrid":         {"CER": "17/18", "grade_mean": null, "abstain_ok": "2/2", "cost_usd_20q": 0.00399, "latency_s_median": 2.20},
+    "rerank":         {"CER": "18/18", "grade_mean": 2.0, "abstain_ok": "2/2", "cost_usd_20q": 0.00408, "latency_s_median": 3.05},
+    "rerank_k5":      {"CER": "18/18", "grade_mean": 2.0, "abstain_ok": "2/2", "cost_usd_20q": 0.00525, "latency_s_median": 3.04},
+    "rerank_multi":   {"CER": "18/18", "grade_mean": 2.0, "abstain_ok": "2/2", "cost_usd_20q": 0.00488, "latency_s_median": 3.11},
+    "rerank_retry":   {"CER": "18/18", "grade_mean": 2.0, "abstain_ok": "2/2", "cost_usd_20q": 0.00492, "latency_s_median": 3.38}
+  },
+  "note": "bm25/hybrid were not answer-graded: they lose on the first criterion (CER) already.",
+  "chosen": "rerank",
+  "reason": "Four rerank configs tie on CER (18/18), grade (2.0) and abstention (2/2); 'rerank' (top-3, one search) has the lowest cost. Retrieval rule (dev Evidence Hit@3) also picks rerank (18/18).",
+  "test_plan": "run baseline_dense and rerank once on test; no setting changes afterwards"
+}

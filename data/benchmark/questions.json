@@ -1,0 +1,578 @@
+{
+ "meta": {
+  "corpus": "openstax-intro-ip-2021, 599 chunks (Day 6 strategy C)",
+  "split_rule": "Answerable questions keep the Day 6 split (by page, no shared gold page). Unanswerable: 2 dev, 2 test.",
+  "test_history": "Day 6 test was run once to report Day 6 ingestion; it was never used to tune any Day 7 retrieval/agent setting.",
+  "hit_definition": "chunk from gold source AND on a gold page AND contains the full evidence quote after normalization (case, quotes, dashes, whitespace).",
+  "selection_rule_fixed_before_test": "Choose the config with the highest dev Context Evidence Rate; ties -> higher dev mean grounded-answer grade; ties -> more correct abstentions; ties -> lower cost/latency. Retrieval method for the agent tool: highest dev Evidence Hit@3, tie -> Hit@1, tie -> MRR."
+ },
+ "questions": [
+  {
+   "id": "d01",
+   "split": "dev",
+   "type": "direct",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "Can a U.S. patent be enforced in another country?",
+   "expected_answer": "No. A U.S. patent is only recognized domestically and cannot be enforced in another country.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 19,
+     "evidence": "U.S. patent is only recognized domestically, and cannot be enforced in another country."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p019-c00"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d02",
+   "split": "dev",
+   "type": "conditional",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "If the applicant offered the invention for sale before filing, how much time can pass before it loses novelty for a patent?",
+   "expected_answer": "It must not have been offered for sale by the applicant or colleagues more than 12 months prior to filing; beyond 12 months it is anticipated.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 51,
+     "evidence": "offered for sale by the applicant or their colleagues more than 12 months prior to the filing of a patent application."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p051-c00"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d03",
+   "split": "dev",
+   "type": "paraphrase",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "Which of the patentability requirements is the toughest one for an inventor to clear?",
+   "expected_answer": "Non-obviousness is by far the highest hurdle.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 53,
+     "evidence": "But by far, the highest hurdle facing inventors is non-obviousness."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p053-c04"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d04",
+   "split": "dev",
+   "type": "direct",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "What are the criteria for plant patentability?",
+   "expected_answer": "Novelty, distinctiveness, and non-obviousness (distinctiveness replaces utility).",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 55,
+     "evidence": "the criteria for plant patentability are novelty, distinctiveness, and non-obviousness."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p055-c02"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d05",
+   "split": "dev",
+   "type": "direct",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "Which criteria does a design patent have to satisfy?",
+   "expected_answer": "Novelty, ornamentality, and non-obviousness.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 55,
+     "evidence": "the criteria for design patents are novelty, ornamentality, and non-obviousness."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p055-c04"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d06",
+   "split": "dev",
+   "type": "conditional",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "How large is the USPTO fee discount for micro entities, and who qualifies as one?",
+   "expected_answer": "75 percent; small entities with gross income below three times U.S. median household income (or meeting other criteria).",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 57,
+     "evidence": "Micro entities, which are small entities who have a gross income less than three times U.S. median household income or meet certain other criteria, receive a 75 percent discount."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p057-c00"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d07",
+   "split": "dev",
+   "type": "direct",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "Is a provisional patent application examined, and how long does it remain viable?",
+   "expected_answer": "It is not examined and is viable for one year.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 57,
+     "evidence": "A provisional application is not subject to examination, and is viable for one year."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p057-c01"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d08",
+   "split": "dev",
+   "type": "conditional",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "What usually happens when a patent owner who does not compete with the infringer asks for an injunction?",
+   "expected_answer": "They usually fail to obtain injunctive relief and are left with money damages, usually an ongoing reasonable royalty.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 90,
+     "evidence": "patentees who are not competitors of the infringer are usually unsuccessful in convincing courts that they are entitled to injunctive relief, and are left with only money damages"
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p090-c00"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d09",
+   "split": "dev",
+   "type": "filter",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "Since the 2006 Supreme Court decision, what must a winning plaintiff prove to get a permanent injunction?",
+   "expected_answer": "Four requirements: irreparable injury; legal remedies inadequate; balance of hardships favors equity; public interest not disserved.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 89,
+     "evidence": "(1) that it has suffered an irreparable injury; (2) that remedies available at law are inadequate to compensate for that injury; (3) that considering the balance of hardships between the plaintiff and defendant, a remedy in equity is warranted; (4) that the public interest would not be disserved by a permanent injunction."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p089-c04"
+   ],
+   "filter": {
+    "ip_type": "patent"
+   }
+  },
+  {
+   "id": "d10",
+   "split": "dev",
+   "type": "conditional",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "When does a copyright holder actually need to register the work?",
+   "expected_answer": "Only to initiate a copyright infringement suit in federal court; copyright itself is automatic at creation.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 103,
+     "evidence": "Registration is only required if a copyright holder wants to initiate a copyright infringement suit in federal court."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p103-c00"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d11",
+   "split": "dev",
+   "type": "direct",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "How long does copyright last for a work with two or more authors?",
+   "expected_answer": "Until 70 years after the last surviving author's death.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 116,
+     "evidence": "For a work with two or more authors, the term expires 70 years after the last author’s death."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p116-c02"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d12",
+   "split": "dev",
+   "type": "conditional",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "After buying copies of a novel, may a bookstore print additional copies of it under the first-sale doctrine?",
+   "expected_answer": "No. First sale ends distribution rights for those copies but does not limit the reproduction right.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 117,
+     "evidence": "The bookstore owner cannot, however, make additional copies of the book because the first-sale doctrine does not limit a copyright owner’s reproduction right"
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p117-c01"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d13",
+   "split": "dev",
+   "type": "filter",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "Who is allowed to file for statutory damages?",
+   "expected_answer": "Only owners of registered copyrights.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 120,
+     "evidence": "Only the owners of registered copyrights may file for statutory damages."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p120-c03"
+   ],
+   "filter": {
+    "ip_type": "copyright"
+   }
+  },
+  {
+   "id": "d14",
+   "split": "dev",
+   "type": "filter",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "Under what two conditions is fair use permitted?",
+   "expected_answer": "Nominative fair use and classic fair use (of another's trademark).",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 163,
+     "evidence": "These are known as nominative fair use and classic fair use."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p163-c00"
+   ],
+   "filter": {
+    "ip_type": "trademark"
+   }
+  },
+  {
+   "id": "d15",
+   "split": "dev",
+   "type": "direct",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "What are the two primary types of marks that can be registered with the USPTO?",
+   "expected_answer": "Trademarks and service marks.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 147,
+     "evidence": "The two primary types of marks are trademarks and service marks."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p147-c01"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d16",
+   "split": "dev",
+   "type": "conditional",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "Is there an exception that lets a mark already used by someone else still be registered?",
+   "expected_answer": "Yes, only when the mark was used in an entirely different market or field of business (e.g., 'Progressive').",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 154,
+     "evidence": "The only exception to the prior use bar is when the mark has been used in an entirely different market or field of business"
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p154-c02"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d17",
+   "split": "dev",
+   "type": "direct",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "What two essential criteria must information meet to qualify as a trade secret?",
+   "expected_answer": "Its value comes from not being generally known, and the owner takes reasonable efforts to keep it secret.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 175,
+     "evidence": "First, the information must attain its value from the fact that it is not generally known. Second, the owner of that information must take reasonable efforts to maintain its secrecy."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p175-c01"
+   ],
+   "filter": null
+  },
+  {
+   "id": "d18",
+   "split": "dev",
+   "type": "filter",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "What is the cap on punitive or exemplary damages relative to the damage award?",
+   "expected_answer": "Under the UTSA it may not exceed twice the damage award, though some states modified this cap.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 186,
+     "evidence": "A punitive or exemplary award may not exceed twice the amount of the damage award."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p186-c02",
+    "C-openstax-intro-ip-2021-p186-c03"
+   ],
+   "filter": {
+    "ip_type": "trade_secret"
+   }
+  },
+  {
+   "id": "t01",
+   "split": "test",
+   "type": "conditional",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "Can an author use a Creative Commons license to restrict other people's fair use of the work?",
+   "expected_answer": "No. CC licenses do not allow authors to limit rights otherwise available under copyright law, such as fair use.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 132,
+     "evidence": "these licenses do not allow authors to limit any of the rights otherwise available under copyright law, such as fair use."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p132-c01"
+   ],
+   "filter": null
+  },
+  {
+   "id": "t02",
+   "split": "test",
+   "type": "filter",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "Why do owners almost always insist on an injunction rather than relying on money damages when infringed?",
+   "expected_answer": "Because the biggest loss is not necessarily revenue but damage to the brand's reputation in consumers' minds.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 162,
+     "evidence": "when a trademark is infringed, the biggest loss to the owner is not necessarily revenue but the potential damage to the reputation of the brand in the minds of consumers."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p162-c01"
+   ],
+   "filter": {
+    "ip_type": "trademark"
+   }
+  },
+  {
+   "id": "t03",
+   "split": "test",
+   "type": "filter",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "How do courts decide how long an injunction should last?",
+   "expected_answer": "Based on the time it would take a competitor to reveal the trade secret by proper means; it can end when the secret ceases to exist.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 185,
+     "evidence": "The duration of an injunction is determined based on the amount of time it would take a competitor to reveal the trade secret by proper means."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p185-c00"
+   ],
+   "filter": {
+    "ip_type": "trade_secret"
+   }
+  },
+  {
+   "id": "t04",
+   "split": "test",
+   "type": "conditional",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "Can a descriptive term ever become eligible for trademark registration?",
+   "expected_answer": "Yes, if it acquires a secondary meaning in the public mind (e.g., 'Sharp' televisions, 'Windows').",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 153,
+     "evidence": "if a descriptive mark takes on a secondary meaning in the public mind—“Sharp” televisions, for example, or “Windows” for windowing software—then it can be eligible for trademark registration."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p153-c03"
+   ],
+   "filter": null
+  },
+  {
+   "id": "t05",
+   "split": "test",
+   "type": "paraphrase",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "Can a product still infringe a patent claim if it does not literally match every element of the claim?",
+   "expected_answer": "Yes, under the doctrine of equivalents, if it performs substantially the same function in substantially the same way with substantially the same result.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 67,
+     "evidence": "If the accused device or process performs substantially the same function in substantially the same way and yields substantially the same result, infringement exists so long as any differences between the claim elements and the accused device are not substantial."
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p067-c01"
+   ],
+   "filter": null
+  },
+  {
+   "id": "t06",
+   "split": "test",
+   "type": "direct",
+   "answerable": true,
+   "expected_behavior": "search_and_answer",
+   "question": "Under the classroom photocopying brevity test, how many words of a poem may be copied?",
+   "expected_answer": "No more than 250 words of a poem.",
+   "gold": [
+    {
+     "source_id": "openstax-intro-ip-2021",
+     "page": 122,
+     "evidence": "“Brevity” means no more than 250 words of a poem"
+    }
+   ],
+   "gold_chunk_ids": [
+    "C-openstax-intro-ip-2021-p122-c05"
+   ],
+   "filter": null
+  },
+  {
+   "id": "u01",
+   "split": "dev",
+   "type": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "How long does a patent last in Vietnam, and which office grants it?",
+   "absence_reason": "The book covers U.S. law only; Vietnam and its IP office are never mentioned. A U.S. patent term answer would not answer the question.",
+   "absence_check": {
+    "method": "regex over all chunk texts (lower-cased)",
+    "chunks_matching_term": {
+     "vietnam": 0,
+     "viet nam": 0
+    }
+   },
+   "filter": null
+  },
+  {
+   "id": "u02",
+   "split": "dev",
+   "type": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "What fee does WIPO charge for an international trademark application under the Madrid Protocol?",
+   "absence_reason": "The book only says a U.S. registration can be a basis for foreign registration (p.157); WIPO, the Madrid system and its fees are not covered.",
+   "absence_check": {
+    "method": "regex over all chunk texts (lower-cased)",
+    "chunks_matching_term": {
+     "wipo": 0,
+     "madrid": 0,
+     "international registration": 0,
+     "protocol": 0
+    }
+   },
+   "filter": null
+  },
+  {
+   "id": "u03",
+   "split": "test",
+   "type": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Can a work created entirely by artificial intelligence, with no human author, be registered for copyright?",
+   "absence_reason": "No passage discusses AI or non-human/computer-generated works; copyright chapters only discuss authorship in general.",
+   "absence_check": {
+    "method": "regex over all chunk texts (lower-cased)",
+    "chunks_matching_term": {
+     "artificial intelligence": 0,
+     "\\bai\\b": 0,
+     "non-human": 0,
+     "computer-generated": 0,
+     "human author": 0
+    }
+   },
+   "filter": null
+  },
+  {
+   "id": "u04",
+   "split": "test",
+   "type": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Under the UDRP, how can a trademark owner recover a domain name from a cybersquatter?",
+   "absence_reason": "Domain names, cybersquatting and the UDRP are not covered in the trademark chapter.",
+   "absence_check": {
+    "method": "regex over all chunk texts (lower-cased)",
+    "chunks_matching_term": {
+     "udrp": 0,
+     "domain name": 0,
+     "cybersquat": 0
+    }
+   },
+   "filter": null
+  }
+ ]
+}

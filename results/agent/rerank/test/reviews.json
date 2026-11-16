@@ -1,0 +1,69 @@
+[
+ {
+  "query_id": "t01",
+  "citation_support": [
+   true
+  ],
+  "note": "Correct; second sentence ('broad dissemination') is supported by p132-c01.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "t02",
+  "citation_support": [
+   true
+  ],
+  "note": "Correct: brand-reputation reason, p162-c01.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "t03",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Partly correct: duration = time for independent development (p185-c01) and courts may rely on experts (p185-c00) are supported, but the answer omits that the injunction ends when the trade secret ceases to exist, although p185-c00 with that sentence was in context.",
+  "answer_grade": 1,
+  "context_grade": 2
+ },
+ {
+  "query_id": "t04",
+  "citation_support": [
+   true
+  ],
+  "note": "Correct: secondary meaning, Sharp/Windows, p153-c03.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "t05",
+  "citation_support": [
+   true
+  ],
+  "note": "Correct: doctrine of equivalents, p067-c01.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "t06",
+  "citation_support": [
+   true
+  ],
+  "note": "Correct: 250 words of a poem, p122-c05.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "u03",
+  "citation_support": [],
+  "note": "Abstained; retrieved copyright passages say nothing about AI-generated works.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u04",
+  "citation_support": [],
+  "note": "Abstained; nothing on UDRP or domain names in context.",
+  "abstention_correct": true
+ }
+]
